@@ -1,5 +1,11 @@
-# statements-on-tools
-The NHS-R Community statements on the use of tools including (but not excluding) R and R Studio. 
+# Statements on Tools
+
+> The NHS-R community aims to support the learning, application and exploitation of R in the NHS
+
+To do this the NHS-R Community wish to support every organisation in installing R, R Studio and R packages and as the NHS-R Community matures we may extend this learning to other tools; this will therefore be a repository for those statements.
+
+These are not directives but, it is hoped, will be a reference to leaders within the NHS (and other organisations) as to the technical and security guidance around open source tools, starting with R, R Studio and R packages. For many years we have had guidance that open source programs should be encouraged and yet it is frequently identified as an security or information governance concern by organisations.
+
 
 # Introduction
 
