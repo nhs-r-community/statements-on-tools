@@ -21,7 +21,9 @@ Packages are a way of standardising and sharing useful code. Rather than copying
 
 Packages make R better: easier to use and learn, more flexible, and with richer options for analysis. They are a feature and not a bug.
 
-The power of packages is reflected in the number of them that are available. CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)) currently lists a total of 18872 packages. Adding and updating packages is one of the ways that R keeps developing. Many community groups - including [NHS-R](https://nhsrcommunity.com/about) - have produced packages to do useful things for their work. And these packages are freely available to the community.
+The recognised global repository for R packages is called CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)). R packages must pass through a strict system of checks across multiple platforms if they're to be accepted into CRAN. Acceptance is a sign of quality and a protective measure that helps ensure that packages meet minimum standards. It also provides extra assurance to business IT teams that the packages are 'safe' for use.
+
+The power of packages is reflected in the number of them that are available. CRAN currently lists a total of 18872 packages. Adding and updating packages is one of the ways that R keeps developing. Many community groups - including [NHS-R](https://nhsrcommunity.com/about) - have produced packages to do useful things for their work. And these packages are freely available to the community.
 
 (something something open source software)
 (Might be nice to have a greatest hits box of links here)
