@@ -51,9 +51,6 @@ Many analysts use an R package called [lubridate](https://lubridate.tidyverse.or
 + Multiple sources for packages (CRAN, GitHub, ...)
 + Community oversight for package standards
 
-Useful comments in FAQ section of [https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0](HSMA) site:
+Useful comments in FAQ section of [HSMA](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0) site:
 
 >It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.
-
-# Contributors
-Produced by the NHS-R community with the contributions of Zoe Turner, Dr Daniel Chalk, and Brendan Clarke
