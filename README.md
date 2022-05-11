@@ -20,21 +20,21 @@ Packages make R better: easier to use and learn, more flexible, and with richer 
 
 # What is inside a package?
 
-> "In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others."
-[Wickham and Bryan, 2019. R packages: Organize, Test, Document and Share Your Code](https://r-pkgs.org/intro.html)
+> "In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others." [Wickham and Bryan, 2019. R packages: Organize, Test, Document and Share Your Code](https://r-pkgs.org/intro.html)
 
-Some examples from the package NHSRplotthedots ([GitHub](https://github.com/nhs-r-community/NHSRplotthedots) / CRAN
+To illustrate, we can show the code from two related NHS-R packages: [NHSRplotthedots](https://github.com/nhs-r-community/NHSRplotthedots) ([CRAN](https://cran.r-project.org/web/packages/NHSRplotthedots/index.html)) and [NHSRdatasets](https://github.com/nhs-r-community/NHSRdatasets) ([CRAN](https://cran.r-project.org/package=NHSRdatasets))
+
 | Component  | Purpose | Example |
-| ------------- | ------------- |
-| Code  | Allowing re-use  | ptd_spc code example |
-| Data  | Content Cell  |
-| Documentation  | User guides, package vignettes and other documentation  |
-| Tests  | Content Cell  |
+| ------------- | ------------- | ------------- |
+| Code  | Allowing re-use  | <img src="https://i.imgur.com/LflSDU2.png" height="100"> <br> the code for the *ptd_spc* function used to create SPC charts |
+| Data  | Demonstrating functions, training new users  | <img src="https://i.imgur.com/0QUnwpr.png" height="100"> <br> sample of NHSR dataset linked to NHSRplotthedots |
+| Documentation  | User guides, package vignettes and other documentation  | <img src="https://i.imgur.com/QzqF3Cq.png" height="100"> <br> documentation for the *ptd_spc* function |
 
-note that the included data in community packages is sample/open data - like mtcars or whatever - and that e.g. CRAN community standards stop sensitive data getting into packages
-so there's no IG problem regarding the use of packages in NHS applications - any entailed data they might contain is generally available and not sensitive
-but there might be IG problems when writing packages. We won't provide detailed guidance here on what's okay to include in your package - it's out of scope for this statement, although might be a nice follow-up. But would be useful to note that package authors should be very clear (perhaps inc. IG oversight) that any data they include in their package isn't sensitive.
+And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It's definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions. 
 
+If you're writing a package, we would encourage caution as to the data that you include. We won't provide detailed guidance here on what's okay to include in your package as this is out of our intended scope for this statement. But would be useful to note that package authors should be very clear (perhaps including institutional oversight) of any data that is included in the package.
+
+# Where do you find packages?
 The recognised global repository for R packages is called CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)). R packages must pass through a strict system of checks across multiple platforms if they're to be accepted into CRAN. Acceptance is a sign of quality and a protective measure that helps ensure that packages meet minimum standards. It also provides extra assurance to business IT teams that the packages are 'safe' for use.
 
 The power of packages is reflected in the number of them that are available. CRAN currently lists a total of 18872 packages. Adding and updating packages is one of the ways that R keeps developing. Many community groups - including [NHS-R](https://nhsrcommunity.com/about) - have produced packages to do useful things for their work. And these packages are freely available to the community.
