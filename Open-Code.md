@@ -8,7 +8,7 @@ There is also a significant crossover between open code and software engineering
 
 ### Glossary (DRAFT)
 
-- **Reproducible Analytics Pipelines**: analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.
+- **Reproducible Analytics Pipelines (RAP)**: analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.
 - **Repo/Repository**: a set of files organised in a project for a specific purpose (such as [statements-on-tools](https://github.com/nhs-r-community/statements-on-tools) itself), containing code or documentation under version control.
 
 ## References
@@ -17,7 +17,7 @@ The following is a list of some of the material available online discussing and 
 
 - [The Goldacre Report](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) - a systematic and far-reaching report, written on behalf of the Department of Health, advocating for open coding and reproducible analytical pipelines (RAP) in the NHS,
 - [Office for Statistics Regulation – Overcoming Barriers to Adoption of RAP](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/) - a report written in support of RAP for adoption by all government departments doing analytics, describing the challenges and recommending solutions to address those challenges covering both organisational, team-level and individual barriers,
-- [NHSX Open Source Policy](https://github.com/nhsx/open-source-policy) (currently in DRAFT) - a comprehensive description of why and how open source should eb implemented in the NHS, including statements about best practice and a checklist for open sourcing code,
+- [NHSX Open Source Policy](https://github.com/nhsx/open-source-policy) (currently in DRAFT) - a comprehensive description of why and how open source should be implemented in the NHS, including statements about best practice and a checklist for open sourcing code,
 - [NHSD RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - a repository containing a wealth of material pertaining to setting up and running RAP, including open source - based on their internal work to implement RAP in various NHSD analytical teams.
 
 ## Specific challenges
