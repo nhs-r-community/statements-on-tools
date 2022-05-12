@@ -6,12 +6,9 @@ To do this the NHS-R Community wish to support every organisation in installing 
 
 These are not directives but, it is hoped, will be a reference to leaders within the NHS (and other organisations) as to the technical and security guidance around open source tools, starting with R, R Studio and R packages. For many years we have had guidance that open source programs should be encouraged and yet it is frequently identified as an security or information governance concern by organisations.
 
-
 # Introduction
 
 R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adapt
-
-<!-- Packages are a way of distributing code.  -->
 
 Imagine that you are writing some code, and run into a slightly tricky problem. The traditional approach would be to write new code yourself from scratch that resolves the problem. But very often, the problems that we encounter are not unique, but are the kind of thing that others might have encountered many times before. So writing new code each time is wasteful. 
 
@@ -19,8 +16,25 @@ That said, finding and sharing functional code to solve common problems is not e
 
 Packages are a way of standardising and sharing useful code. Rather than copying and adjusting a block of code, you simply add the package to your programme, and then use the new functions that are contained in the package. Many programming languages use packages (or libraries) in a similar way. Python is a good example, where many useful functions are done using third-party packages.
 
-Packages make R better: easier to use and learn, more flexible, and with richer options for analysis. They are a feature and not a bug.
+Packages make R better: easier to use and learn, more flexible, and with richer options for analysis. They are a feature and not a bug, and for many users their work in R depends on packages, and would not be possible without them.
 
+# What is inside a package?
+
+> "In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others." [Wickham and Bryan, 2019. R packages: Organize, Test, Document and Share Your Code](https://r-pkgs.org/intro.html)
+
+To illustrate, we can show the code from two related NHS-R packages: [NHSRplotthedots](https://github.com/nhs-r-community/NHSRplotthedots) ([CRAN](https://cran.r-project.org/web/packages/NHSRplotthedots/index.html)) and [NHSRdatasets](https://github.com/nhs-r-community/NHSRdatasets) ([CRAN](https://cran.r-project.org/package=NHSRdatasets))
+
+| Component  | Purpose | Example |
+| ------------- | ------------- | ------------- |
+| Code  | Allowing re-use  | <img src="https://i.imgur.com/LflSDU2.png" height="100"> <br> the code for the *ptd_spc* function used to create SPC charts |
+| Data  | Demonstrating functions, training new users  | <img src="https://i.imgur.com/0QUnwpr.png" height="100"> <br> sample of NHSR dataset linked to NHSRplotthedots |
+| Documentation  | User guides, package vignettes and other documentation  | <img src="https://i.imgur.com/QzqF3Cq.png" height="100"> <br> documentation for the *ptd_spc* function |
+
+And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It's definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions. 
+
+If you're writing a package, we would encourage caution as to the data that you include. We won't provide detailed guidance here on what's okay to include in your package as this is out of our intended scope for this statement. But would be useful to note that package authors should be very clear (perhaps including institutional oversight) of any data that is included in the package.
+
+# Where do you find packages?
 The recognised global repository for R packages is called CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)). R packages must pass through a strict system of checks across multiple platforms if they're to be accepted into CRAN. Acceptance is a sign of quality and a protective measure that helps ensure that packages meet minimum standards. It also provides extra assurance to business IT teams that the packages are 'safe' for use.
 
 The power of packages is reflected in the number of them that are available. CRAN currently lists a total of 18872 packages. Adding and updating packages is one of the ways that R keeps developing. Many community groups - including [NHS-R](https://nhsrcommunity.com/about) - have produced packages to do useful things for their work. And these packages are freely available to the community.
