@@ -26,7 +26,7 @@ Packages are a way of standardising and sharing useful code. Rather than copying
 
 Packages make R better: easier to use and learn, more flexible, and with richer options for analysis. They are a feature and not a bug, and for many users their work in R depends on packages, and would not be possible without them.
 
-# What is inside a package?
+## What is inside a package?
 
 > "In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others." [Wickham and Bryan, 2019. R packages: Organize, Test, Document and Share Your Code](https://r-pkgs.org/intro.html)
 
@@ -42,13 +42,20 @@ And we can usually find at least three of these components in most R packages (t
 
 If you're writing a package, we would encourage caution as to the data that you include. We won't provide detailed guidance here on what's okay to include in your package as this is out of our intended scope for this statement. But would be useful to note that package authors should be very clear (perhaps including institutional oversight) of any data that is included in the package.
 
-# Where do you find packages?
+## Why not include all this useful code in R?
+R as UNIX-like small tools approach
+> 1. Rule of Modularity: Write simple parts connected by clean interfaces.
+[Raymond 2003 The Art of UNIX Progamming](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+
+Manage complexity - everything buckets https://www.al3x.net/blog/2009/01/31/the-case-against-everything-buckets
+
+(something something open source software)
+You can find some of the packages that the NHS-R community find particularly useful at [https://github.com/nhs-r-community/awesome-nhsr](https://github.com/nhs-r-community/awesome-nhsr).
+
+## Where do you find packages?
 The recognised global repository for R packages is called CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)). R packages must pass through a strict system of checks across multiple platforms if they're to be accepted into CRAN. Acceptance is a sign of quality and a protective measure that helps ensure that packages meet minimum standards. It also provides extra assurance to business IT teams that the packages are 'safe' for use.
 
 The power of packages is reflected in the number of them that are available. CRAN currently lists a total of 18872 packages. Adding and updating packages is one of the ways that R keeps developing. Many community groups - including [NHS-R](https://nhsrcommunity.com/about) - have produced packages to do useful things for their work. And these packages are freely available to the community.
-
-(something something open source software)
-(Might be nice to have a greatest hits box of links here)
 
 That community spirit is an important part of the open software movement. We think that sharing useful code in an open way is important. Governments too think similarly. For example, see the requirement to make new code open source from [NHS England digital openness](https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open) and similar from ScotGov. The recent Goldacre review (2022) comes to similar conclusions:
 
