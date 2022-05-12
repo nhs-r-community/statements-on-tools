@@ -1,12 +1,20 @@
-# Statements on Tools
+# NHS-R Statements on Tools
 
-> The NHS-R community aims to support the learning, application and exploitation of R in the NHS
+The [NHS-R community](https://nhsrcommunity.com/about/) aims to support the learning, application and exploitation of [R](https://www.r-project.org/about.html) in the NHS. A key part of this aim is to support every organisation in making R available as a viable means of conducting healthcare analytics.
 
-To do this the NHS-R Community wish to support every organisation in installing R, R Studio and R packages and as the NHS-R Community matures we may extend this learning to other tools; this will therefore be a repository for those statements.
+## About this document
+This document elaborates what is required to make R viable in practice. R by itself is a powerful analytic language. But for most purposes it is strengthened by two important helpers: [R Studio](https://www.rstudio.com/) and R packages. This statement is meant to act as a reference to the technical and security guidance around these open source tools. Our motive in writing this is to overcome the institutional reluctance that is often encountered when trying to use new open source tools. For many years we have had guidance that open source programs should be encouraged. Yet open source tools are frequently identified as security or information governance risks by organisations. We think that these concerns are largely the result of confusion about the nature of open source tools. This document is therefore aimed at clearing up some of this confusion, by providing a simple, non-technical, and focused introduction to the tools that are an integral part of R.
 
-These are not directives but, it is hoped, will be a reference to leaders within the NHS (and other organisations) as to the technical and security guidance around open source tools, starting with R, R Studio and R packages. For many years we have had guidance that open source programs should be encouraged and yet it is frequently identified as an security or information governance concern by organisations.
+As the NHS-R Community matures we may extend this learning to other tools; this will therefore be a repository for those statements.
 
-# Introduction
+The statement is intended for leaders within the NHS and other organisations in health and care who wish to support and encourage the use of R in their practice.
+
+### Some use cases
++ Providing some guidance to IG practitioners who are unfamiliar with R
++ To provide reassurance and explanation to senior collegues with worries about something
++ To support those learning R in understanding how the many packages and tools fit together
+
+## Introduction
 
 R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adapt
 
