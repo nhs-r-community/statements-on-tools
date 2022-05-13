@@ -3,23 +3,33 @@
 The [NHS-R community](https://nhsrcommunity.com/about/) aims to support the learning, application and exploitation of [R](https://www.r-project.org/about.html) in the NHS. A key part of this aim is to support every organisation in making R available as a viable means of conducting healthcare analytics.
 
 ## About this document
-This document elaborates what is required to make R viable in practice. R by itself is a powerful analytic language. But for most purposes it is strengthened by two important helpers: [R Studio](https://www.rstudio.com/) and R packages. This statement is intended for leaders within the NHS and other organisations in health and care who wish to support and encourage the use of R in their practice. This document provides a simple reference to the technical and security guidance around the use of open source tools. Our motive in writing this document is to overcome the institutional reluctance that is often encountered when trying to use new open source tools. For many years we have had guidance that open source programs should be encouraged. Yet open source tools are frequently identified as security or information governance risks by organisations. We think that these concerns are largely the result of confusion about the nature of open source tools. This document is therefore aimed at clearing up some of this confusion, by providing a simple, non-technical, and focused introduction to the tools that are an integral part of R.
+This document elaborates what is required to make R viable in practice. R is a powerful language for statistical work and other kinds of data analysis. Much of this power comes from the way that R fits together with two important helpers: [R Studio](https://www.rstudio.com/) and R packages. This document describes the way that R, R Studio, and R packages work together in non-technical language. Our aim in writing this simple introduction is to provide a useful resource to leaders within the NHS and other organisations in health and care who wish to support and encourage the use of R in their practice. Our motive in writing this document is to overcome the institutional reluctance that is often encountered when trying to use new open-source tools. For many years we have had guidance that open source programs should be encouraged. Yet open source tools are frequently identified as security or information governance risks by organisations. We think that these concerns are largely the result of confusion about the nature of open source tools. This document is therefore aimed at clearing up some of this confusion, by providing a simple, non-technical, and focused introduction to the tools that are an integral part of R.
 
-Although the current focus of this document is specific to R and its tools, we note that similar situations are found in many other languages and programmes. We discuss this below in the section *Why not include all this useful code in R?*. As the NHS-R Community matures we may extend this learning to cover those other tools.
+Although the current focus of this document is specific to R and its tools, we note that similar situations are found in many other languages and programmes. We discuss this below in the section *Why not include all this useful code in R?*. As the NHS-R Community matures we may extend this learning to cover other open-source tools such as Python.
 
 ### Some use cases for this document
 + To provide guidance to Information Governance (IG) practitioners who have been asked to evaluate the use of R in some health and care context
-+ To provide reassurance and explanation to collegues and managers when R is being considered for use in some project
-+ To support those new to R in understanding how the many packages and tools fit together
++	To provide reassurance and explanation to collegues and managers when R is being considered for use in some project
++	To support those new to R in understanding how the many packages and tools fit together
+
 
 ## Introduction
-R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adopt them in the code that they are writing. To illustate, imagine that you run into a tricky problem programming problem. The traditional approach might be to solve the problem by writing completely new code from scratch. And sometimes writing something new and original is the right way to solve problems, particularly if those problems are very unusual, or would only be found in the exact situation that you are working in. 
+R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adopt them in the code that they are writing. To illustate, imagine that you run into a tricky problem programming problem. We can think of three different ways of solving this problem:
 
-Often though the problems that we encounter are not unique, but are the kind of thing that others might have encountered many times before. We give an example below about times and dates, which frequently cause problems for programmers. And writing a completely original solution to handle, say, time zones each time we encounter them begins to look wasteful. But finding and sharing reliable code to solve common problems comes with difficulties of its own. You could look for solutions online using sites like [StackOverflow](https://stackoverflow.com/), and then copy and paste any promising code chunks into your project. But copying code manually is messy, and requires both an expert's eye for assessing possible solutions, and the skills to appropriately adjust borrowed code to fit the requirements of your project.
+1. Write all-new code from scratch
+2. Copy-paste working code from somewhere else
+3. Use a package
+
+The traditional approach might be to solve the problem by writing completely new code from scratch. And sometimes writing original code is the best way to solve problems, particularly if those problems are very unusual.
+
+Often though the problems that we encounter are not at all unusual. Commonly encountered problems are, by definition, the kind of problems that we would most often encounter. We give an example below about times and dates, which frequently cause problems for programmers.  Writing a completely original solution each time we encounter a common problem seems inefficient. So it is no surprise that code reuse is common practice across the field. The scale of websites dedicated to sharing useful code (like [stack overflow](https://stackoverflow.com/)) is testament to the deep sense of professional loathing that many programmers have for inefficiency in their work.
+
+But finding and sharing reliable code to solve common problems comes with difficulties of its own. You could look for solutions online, and then copy and paste any promising code chunks into your project. While generally quicker and easier than writing new code from scratch, copying code manually requires a surprisingly high degree of skill. Both an expert’s eye for assessing possible solutions, and the skills to appropriately adjust borrowed code to fit the requirements of your project are needed.
 
 Packages are a way of standardising and sharing useful code. Rather than copying and adjusting a block of code, you simply add the package to your programme. You can then use the new functions contained in the package as if you had written them yourself. They are a consistent way to extend the functions available to user. Many programming languages use packages (or libraries) in a similar way. Python is a good example, where many useful functions are done using third-party packages.
 
 Packages make R better: easier to use and learn, more flexible, and with richer options for analysis. They are a feature and not a bug, and for many users their work in R utterly depends on packages.
+
 
 ## What is inside a package?
 
@@ -33,19 +43,20 @@ To illustrate, we can show the code from two related NHS-R packages: [NHSRplotth
 | Data  | Demonstrates the function(s), training new users  | <img src="https://i.imgur.com/0QUnwpr.png" height="100"> <br> sample of NHSR dataset linked to NHSRplotthedots |
 | Documentation  | User guides, package vignettes and other documentation  | <img src="https://i.imgur.com/QzqF3Cq.png" height="100"> <br> documentation for the *ptd_spc* function |
 
-And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It's definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions. 
+And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It’s definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets built into packages - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions.
 
-If you're writing a package, we would encourage caution as to the data that you include. We won't provide detailed guidance here on what's okay to include in your package as this is out of our intended scope for this statement. But would be useful to note that package authors should be very clear (perhaps including institutional oversight) of any data that is included in the package.
+If you’re writing a package, we would encourage caution as to the data that you include. We won’t provide detailed guidance here on what’s okay to include in your package. But would be useful to remind package authors that the proper oversight should be carried out before sharing any data as part of your package.
 
 ## Why not include all this useful code in R?
-R as UNIX-like small tools approach
+
+Call the approach that R takes modular. R provides some core functions, but users are able to add modules (packages) that change the functions that are available. It’s like being able to customize the tools that you use to work on each project. 
+
+Users coming to R from software that does not work like this can find this modular approach messy and odd. If you’ve grown up working in Microsoft Excel, then you will be accustomed to doing almost any task using just the build-in functions in the core software. For that user, switching to an environment where the user has to select and add small, specific, tools to achieve things can feel rather alien. And this difference has deep roots, representing a deep difference in software engineering philosophy. R broadly follows a UNIX-like small tools approach as a way of managing and reducing the complexity of computer systems. As Eric Raymond put it, this is one of the central rules of the UNIX philosophy:
+
 > 1. Rule of Modularity: Write simple parts connected by clean interfaces.
 [Raymond 2003 The Art of UNIX Progamming](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 
-Manage complexity - everything buckets https://www.al3x.net/blog/2009/01/31/the-case-against-everything-buckets
-
-(something something open source software)
-You can find some of the packages that the NHS-R community find particularly useful at [https://github.com/nhs-r-community/awesome-nhsr](https://github.com/nhs-r-community/awesome-nhsr).
+Another reason: each project written in R is different. Isn’t it great to be able to select just the right tools needed to do the job properly? On this, you can find a list of some of the packages that the NHS-R community find particularly useful at [https://github.com/nhs-r-community/awesome-nhsr](https://github.com/nhs-r-community/awesome-nhsr).
 
 ## Where do you find packages?
 The recognised global repository for R packages is called CRAN (the [Comprehensive R Archive Network](https://cran.r-project.org/)). R packages must pass through a strict system of checks across multiple platforms if they're to be accepted into CRAN. Acceptance is a sign of quality and a protective measure that helps ensure that packages meet minimum standards. It also provides extra assurance to business IT teams that the packages are 'safe' for use.
@@ -63,13 +74,14 @@ Safe, too: R hasn't had any bugs or problems that could cause any security issue
 
 ## An example
 <img src="https://i.imgur.com/DPrxXXj.jpg" height="300">
-[This version found on Reddit](https://old.reddit.com/r/ProgrammerHumor/comments/d51l9u/the_counter_was_reset_today_we_were_almost_into/).
+
+[image credit](https://www.reddit.com/r/ProgrammerHumor/comments/d51l9u/the_counter_was_reset_today_we_were_almost_into/)
 
 For example, working with dates is often a source of pain for data analysts. That's because dates are complicated. For example, there are lots of ways of storing and representing dates. There are also many inconsistencies - 24 hours in a day but 60 seconds in a minute, leap years, different numbers of days in months, time zones, and so on.
 
-Many analysts use an R package called [lubridate](https://lubridate.tidyverse.org/) to help manage dates and times. This package has lots of helpful functions for parsing, calculating, and representing dates and times. For example, imagine that you want to calculate the number of seconds between two dates. For simple cases, that's not too hard to do in base R. But what if some of your time values cross time zones? What if the clocks changed (say, due to daylight savings) during that interval? The functions in the lubridate package allow analysts to ignore some of this complexity, meaning that they don't need to write many lines of code in order to accomodate time zones each time they want to do a simple duration calculation.
+Many analysts use an R package called [lubridate](https://lubridate.tidyverse.org/) to help manage dates and times. This package has lots of helpful functions for parsing, calculating, and representing dates and times. For example, imagine that you want to calculate the number of seconds between two dates. For simple cases, that’s not too hard to do in base R. But what if some of your time values cross time zones? What if clock time has changed (say, due to daylight savings) during that interval? The functions in the lubridate package allow analysts to ignore some of this complexity, meaning that they don’t need to write many lines of code in order to accomodate time zones each time they want to do a simple duration calculation.
 
-# What's the problem
+## What's the problem
 
 + Something of a moving target for information governance.
 + Rapid change and large numbers of packages (c.19k packages on CRAN)
