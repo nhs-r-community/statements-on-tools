@@ -12,6 +12,28 @@ Although the current focus of this document is specific to R and its tools, we n
 +	To provide reassurance and explanation to collegues and managers when R is being considered for use in some project
 +	To support those new to R in understanding how the many packages and tools fit together
 
+### National guidance on open tools for analytics
+
+**NHSA 23. Revise NHS IT policy for analysts to ensure it is fit for purpose**
+Analysts need to be able to use modern computational
+data science tools such as python, GitHub and docker
+on their NHS computers. Current IT policies often
+block the use of such tools. A similar challenge has
+been faced and recently overcome by the analytic
+community in government outside of health. This must
+be addressed in national and local IT policies with
+clear statements on assurance and risk from the NHS
+Transformatin Directorate to local decision makers,
+to make it the norm for work to be delivered using
+modern computational data science tools and avoid
+the apparently prevalent problem of analysts using
+these tools outside of the formal permissions and
+policies of their workplace. Many but not all of these
+challenges will be met by delivering better national
+and local infrastructure for data access; however,
+there will likely still be a role for individual local
+machines that facilitate the use of standard modern
+tools.
 
 ## Introduction
 R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adopt them in the code that they are writing. To illustate, imagine that you run into a tricky problem programming problem. We can think of three different ways of solving this problem:
