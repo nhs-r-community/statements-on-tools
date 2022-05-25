@@ -96,4 +96,4 @@ As discussed above, the data in R packages is used for testing, training, and de
 + How can free software be trustworthy? Isn't there going to be a catch? And who is responsible for ensuring the quality and safety of this software?
 Free open-source software (FOSS) is now widely used across sectors. Useful comments in FAQ section of [HSMA](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0) site:
 
->It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.
+>"It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using." [Health Service Modelling Associates Programme](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0)
