@@ -1,13 +1,5 @@
-Welcome! 
+This is an evolving document which describes how and why to use R and other data science tools and to share and reuse code safely in health and social care settings.
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+The scope and content are expanding all the time as the community collaboratively produces a definitive statement of the "NHS-R way".
 
-This template provides a skeleton file structure that you can edit to create your book. 
-
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+Please file issues, make pull requests, and get involved, we're very happy from hear from friends from inside and outside of NHS-R
