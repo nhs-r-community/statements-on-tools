@@ -12,6 +12,10 @@ Although the current focus of this document is specific to R and its tools, we n
 +	To provide reassurance and explanation to collegues and managers when R is being considered for use in some project
 +	To support those new to R in understanding how the many packages and tools fit together
 
+### National guidance on open tools for analytics
+
+> "**NHSA 23. Revise NHS IT policy for analysts to ensure it is fit for purpose**
+Analysts need to be able to use modern computational data science tools such as python, GitHub and docker on their NHS computers. Current IT policies often block the use of such tools. ... This must be addressed in national and local IT policies with clear statements on assurance and risk from the NHS Transformati[o]n Directorate to local decision makers, to make it the norm for work to be delivered using modern computational data science tools ... ." [Better, broader, safer: using health data for research and analysis](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#information-governance-ethics-and-participation)
 
 ## Introduction
 R uses **packages**. Packages are small, reusable packages of code that allow users to create and use new functions. These packages can be easily distributed so that users can adopt them in the code that they are writing. To illustate, imagine that you run into a tricky problem programming problem. We can think of three different ways of solving this problem:
@@ -52,8 +56,7 @@ Call the approach that R takes modular. R provides some core functions, but user
 
 Users coming to R from software that does not work like this can find this modular approach messy and odd. If you've grown up working in Microsoft Excel, then you will be accustomed to doing almost any task using just the build-in functions in the core software. For that user, switching to an environment where the user has to select and add small, specific, tools to achieve things can feel rather alien. And this difference has deep roots, representing a deep difference in software engineering philosophy. R broadly follows a UNIX-like small tools approach as a way of managing and reducing the complexity of computer systems. As Eric Raymond put it, this is one of the central rules of the UNIX philosophy:
 
-> 1. Rule of Modularity: Write simple parts connected by clean interfaces.
-[Raymond 2003 The Art of UNIX Progamming](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+> "1. Rule of Modularity: Write simple parts connected by clean interfaces." [Raymond 2003 The Art of UNIX Progamming](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
 
 Another reason: each project written in R is different. Isn't it great to be able to select just the right tools needed to do the job properly? On this, you can find a list of some of the packages that the NHS-R community find particularly useful at [https://github.com/nhs-r-community/awesome-nhsr](https://github.com/nhs-r-community/awesome-nhsr).
 
@@ -64,10 +67,8 @@ The power of packages is reflected in the number of them that are available. CRA
 
 That community spirit is an important part of the open software movement. We think that sharing useful code in an open way is important. Governments too think similarly. For example, see the requirement to make new code open source from [NHS England digital openness](https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open) and similar from ScotGov. The recent Goldacre review (2022) comes to similar conclusions:
 
->**Libraries**
-Useful functions often outgrow individual projects and build a broader user-base, especially when a large number of users are all trying to solve the same suite of related problems, with a range of related functions. When this happens, more experienced programmers move the work into reusable code 'libraries' and share them through package indexes or archive networks. The process of creating and sharing libraries can improve the quality of code, because work that is more widely used is likely to be more widely reviewed. Popular libraries tend to be well documented and come with clear explanations and examples, which decrease the barriers to entry for inexperienced coders: when more people use the work, more people invest in improving it. By creating and sharing a library, researchers contribute to the broader research community. This more advanced variety of code sharing is common in many areas of scientific research, such as Geographic Information Science, but it is less common at present in health data research.
-
-[Better, broader, safer: using health data for research and analysis](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#information-governance-ethics-and-participation)
+>"**Libraries**
+Useful functions often outgrow individual projects and build a broader user-base, especially when a large number of users are all trying to solve the same suite of related problems, with a range of related functions. When this happens, more experienced programmers move the work into reusable code 'libraries' and share them through package indexes or archive networks. The process of creating and sharing libraries can improve the quality of code, because work that is more widely used is likely to be more widely reviewed. Popular libraries tend to be well documented and come with clear explanations and examples, which decrease the barriers to entry for inexperienced coders: when more people use the work, more people invest in improving it. By creating and sharing a library, researchers contribute to the broader research community. This more advanced variety of code sharing is common in many areas of scientific research, such as Geographic Information Science, but it is less common at present in health data research." [Better, broader, safer: using health data for research and analysis](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#information-governance-ethics-and-participation)
 
 We believe that this approach is safe, and are not aware of any data protection issues that have arised because of the use of packages in R.
 
@@ -95,4 +96,4 @@ As discussed above, the data in R packages is used for testing, training, and de
 + How can free software be trustworthy? Isn't there going to be a catch? And who is responsible for ensuring the quality and safety of this software?
 Free open-source software (FOSS) is now widely used across sectors. Useful comments in FAQ section of [HSMA](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0) site:
 
->It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.
+>"It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using." [Health Service Modelling Associates Programme](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0)
