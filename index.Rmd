@@ -67,12 +67,6 @@ add_external_md("https://raw.githubusercontent.com/nhs-r-community/statements-on
 
 \newpage
 
-# Vision
-
-
-\newpage
-
-
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
