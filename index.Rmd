@@ -37,9 +37,9 @@ readLines(link) %>%
 knitr::include_graphics('images/logo.jpg', dpi = NA)
 ```
 
-In this book we've compiled a set of resources for anyone using R within the NHS and beyond. These are taken directly from resources we created within [our GitHub repos](https://github.com/nhs-r-community). This handbook is updated once a day to pull in any changes that have been made in those repos. 
+In this book we've compiled a set of resources for anyone using data science tools within the NHS and beyond. These are taken directly from resources we created within [our GitHub repos](https://github.com/nhs-r-community). 
 
-If you'd like to see additional resources included here, feel free to [open an issue](https://github.com/nhs-r-community/statements-on-tools/issues/)! 
+If you'd like to see additional resources included here, feel free to [open an issue](https://github.com/nhs-r-community/statements-on-tools/issues/) or contribute with a pull request. 
 
 \newpage
 
