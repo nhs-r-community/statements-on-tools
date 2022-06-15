@@ -39,3 +39,6 @@ vignettes/*.pdf
 .Renviron
 
 .vscode/
+# do not commit bookdown artifacts
+docs/
+*.html
