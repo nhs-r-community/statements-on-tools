@@ -10,3 +10,5 @@ Please file issues, make pull requests, and get involved, we're very happy from 
 outside of NHS-R.
 
 Read it here https://nhs-r-community.github.io/statements-on-tools/
+
+<!-- restoring old text -->
