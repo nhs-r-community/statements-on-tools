@@ -1,0 +1,26 @@
+# Open code in the NHS
+
+## Introduction
+
+
+
+### Glossary (DRAFT)
+
+- **Reproducible Analytics Pipelines (RAP)**: analytics processes developed in open source programming languages and
+adhering to software engineering best practices to allow for reproducing analyses with very little effort.
+- **Repo/Repository**: a set of files organised in a project for a specific purpose (such as 
+[statements-on-tools][statments-on-tools] itself), containing code or documentation under version control.
+
+## References
+
+
+## Specific challenges
+
+### Opening code without exposing data/'secrets'
+
+
+### Opening code without giving away commercial/business/clinical proprietary information (and IP)
+
+### Coding in the open
+
+### Useful links
