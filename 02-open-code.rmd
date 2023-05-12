@@ -3,9 +3,8 @@
 ## Introduction
 
 There are number of organisations and publications advocating open coding in its various guises within the NHS and more
-generally across the public sector and academia.  This page is intended as a place to collate pertinent literature and
-proposed/tried approaches to implementation of open code policies in situations in the NHS from individual teams up to
-entire organisations.
+generally across the public sector and academia.
+This page is intended as a place to collate pertinent literature and proposed/tried approaches to implementation of open code policies in situations in the NHS from individual teams up to entire organisations.
 
 There is also a significant crossover between open code and software engineering best practice, which means that they
 are often (always?) promoted together as an effective means to improve reproducibility, 
@@ -35,7 +34,8 @@ engineering approaches to code development in the NHS:
 ### Opening code without exposing data/'secrets'
 
 This issue is often raised (and rightly) when discussing open sourcing of code - how do you ensure that personal
-clinical or other sensitive data are not shared?  In practice there are a number of approaches to this (see the 
+clinical or other sensitive data are not shared?
+In practice there are a number of approaches to this (see the 
 NHS-X Open Source Policy[-@nhsx_osp] for more practical advice on this) including setting up repos with automated
 checking for datasets and secrets (such as API keys) in order that risk of unintentional disclosure is minimised.
 
@@ -43,15 +43,14 @@ checking for datasets and secrets (such as API keys) in order that risk of unint
 
 Many members of the NHS-R community work in teams or individually without any formal training or support to enable them
 to determine whether there would be significant ramifications of publishing particular code, especially where business
-processes might be encoded in the project, or where there might be some IP issue. This makes the prospect of open
-sourcing rather daunting.
+processes might be encoded in the project, or where there might be some IP issue. 
+This makes the prospect of open sourcing rather daunting.
 
 ### Coding in the open
 
 The NHS-X Open Source Policy[-@nhsx_osp] recommends that all development/analytics work done in the NHS be coded in the
-open unless there is good reason not to.  However it also states that
-["an internal code review should be conducted for all open source projects before publication"][nhsx_code_review],
-which is at odds with coding in the open.
+open unless there is good reason not to.
+However it also states that ["an internal code review should be conducted for all open source projects before publication"][nhsx_code_review], which is at odds with coding in the open.
 
 [statements_on_tools]: https://github.com/nhs-r-community/statements-on-tools
 [nhsd_rap_cop]: https://github.com/NHSDigital/rap-community-of-practice

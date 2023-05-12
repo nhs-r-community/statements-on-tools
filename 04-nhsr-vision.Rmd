@@ -3,34 +3,29 @@
 ## Using R in research
 
 > A mistake in the operating room can threaten the life of one patient; a mistake in statistical analysis or
-interpretation can lead to hundreds of early deaths. So it is perhaps odd that, while we allow a doctor to conduct
-surgery only after years of training, we give SPSS® (SPSS, Chicago, IL) to almost anyone. Moreover, whilst only a
-surgeon would comment on surgical technique, it seems that anybody, regardless of statistical training, feels confident
-about commenting on statistical data.
+interpretation can lead to hundreds of early deaths. 
+So it is perhaps odd that, while we allow a doctor to conduct surgery only after years of training, we give SPSS® (SPSS, Chicago, IL) to almost anyone. Moreover, whilst only a surgeon would comment on surgical technique, it seems that anybody, regardless of statistical training, feels confident about commenting on statistical data.
 
 *@vickers_interpreting_2005*
 
-The NHS, as one of the largest hospital and healthcare systems, is a world leader in research. Research and evaluation
-are carried out as funded projects as well as unfunded audits/ evaluation. Both of which often require statistics- the
-analysis often being done in SPSS/ SAS or Excel. These methods can produce flawed analyses which, moreover, are not
-reproducible. 
+The NHS, as one of the largest hospital and healthcare systems, is a world leader in research. 
+Research and evaluation are carried out as funded projects as well as unfunded audits/ evaluation. Both of which often require statistics- the analysis often being done in SPSS/ SAS or Excel. 
+These methods can produce flawed analyses which, moreover, are not reproducible. 
 
 Many trusts do not employ statistics experts and will only be able to get statistical help on funded work by buying in
-time from academic/external statisticians. This means that the pilot work that clinicians do prior to applying for large
-grants can often be flawed, or promising work ends up not being completed and the grants never awarded because they
-didn't have the statistics expertise.
+time from academic/external statisticians. 
+This means that the pilot work that clinicians do prior to applying for large grants can often be flawed, or promising work ends up not being completed and the grants never awarded because they didn't have the statistics expertise.
 
 While we would not expect clinicians to become expert coders, the NHS-R community should work to develop and deliver
 training that would help clinicians to be able to use R, including the development of training specifically for those
-with a clinical/ non coding background. This training needs to include R for statistics as well as the more commonly
-included [data wrangling and visualisation][intro_r].
+with a clinical/ non coding background. 
+This training needs to include R for statistics as well as the more commonly included [data wrangling and visualisation][intro_r].
 
 Better collaboration between R users working in academia and those in the NHS would also be beneficial.
 
 ## Training
 
-The NHS-R community has developed/ is developing training on introduction to R, Shiny, R Markdown, git, and interactive
-plotting, amongst other things. 
+The NHS-R community has developed/ is developing training on introduction to R, Shiny, R Markdown, git, and interactive plotting, amongst other things. 
 
 * Where are the gaps in training provision at the current time?
 * How can NHS-R maintain/ increase the amount of training that it is able to deliver free to health and social care
@@ -38,19 +33,14 @@ staff in the NHS in the UK?
 
 ## Development 
 
-The NHS-R community comprises members with a very wide diversity of job roles and skills. Although there is no one route
-to being a skilled and userful R developer in health and social care nonetheless the R community could usefully
-contribute to thinking on how to recruit, train, and develop analysts who use R and other open code approaches to data
-science/data analysis. 
+The NHS-R community comprises members with a very wide diversity of job roles and skills. 
+Although there is no one route to being a skilled and useful R developer in health and social care nonetheless the R community could usefully contribute to thinking on how to recruit, train, and develop analysts who use R and other open code approaches to data science/data analysis. 
 
 ## Events
 
 NHS-R already has a very successful conference but in the workshop there was a suggestion that there could be another
-NHS-R event focused on finding problems and solutions to them. There are several ways this could usefully be done,
-perhaps as a hackathon type approach where the problems are begun on during the event (finished during the event if
-there is time or worked on afterwards), or more of a problem definition/ alliance building type approach where the
-actual problems and the people who are interested in solving them are identified during the event and then the actual
-development is done later
+NHS-R event focused on finding problems and solutions to them. 
+There are several ways this could usefully be done, perhaps as a hackathon type approach where the problems are begun on during the event (finished during the event if there is time or worked on afterwards), or more of a problem definition/ alliance building type approach where the actual problems and the people who are interested in solving them are identified during the event and then the actual development is done later.
 
 ## Appendix A: workshop
 
@@ -60,29 +50,22 @@ The following summarises a workshop about the future of NHS-R.
 
 The positive contribution of the NHS-R Community was shared by all stakeholders and included the following highlights.
 For analysts: a safe, trusted, supportive space to learn and share together, a badge of honour, joy, confidence,
-upskilling, networking, working across organisational boundaries without needing permission. For leaders: signposting to
-a trusted brand and community that can influence policy which is underpinned by two value systems - NHS and open source.
-For the wider system: NHS-R has shifted thinking on how to secure analytic needs in the future and is perhaps the
-world’s first open-source community focused on health and care with admirers across the globe.
+upskilling, networking, working across organisational boundaries without needing permission. 
+For leaders: signposting to a trusted brand and community that can influence policy which is underpinned by two value systems - NHS and open source.
+For the wider system: NHS-R has shifted thinking on how to secure analytic needs in the future and is perhaps the world’s first open-source community focused on health and care with admirers across the globe.
 
 ### What is the need in the system given the change in the health and care landscape?
-The system has evolved, and progress has been made since the NHS-R Community was established. Still, some common themes
-persist regarding the needs of the system; skills gaps, infrastructure needs, better collaborative working and more
-structured peer learning, and the development of analytical leadership. Specific examples include: methodological
-training for analysts, setting professional standards, equipping leaders with analytical thinking skills, supporting the
-use of operations research methods, building links with social care and researchers, quality assurance processes and
-more. There was consensus that the NHS-R Community should focus on its strengths and not duplicate or drift from this
-because this may undermine its impact (perhaps because it becomes less relevant to its core members who are flourishing
-in the freedom of NHS-R).  Below is a summary of what the "NHS-R Community" can do to support the system.
+The system has evolved, and progress has been made since the NHS-R Community was established. Still, some common themes persist regarding the needs of the system; skills gaps, infrastructure needs, better collaborative working and more structured peer learning, and the development of analytical leadership. 
+Specific examples include: methodological training for analysts, setting professional standards, equipping leaders with analytical thinking skills, supporting the use of operations research methods, building links with social care and researchers, quality assurance processes and more. 
+There was consensus that the NHS-R Community should focus on its strengths and not duplicate or drift from this because this may undermine its impact (perhaps because it becomes less relevant to its core members who are flourishing in the freedom of NHS-R).  
+Below is a summary of what the "NHS-R Community" can do to support the system.
 
 ### What can the NHS-R Community do to support the system?
 
 The following areas were identified.
 1.	Engage with NHS leaders to help them appreciate the potential of the NHS-R Community as a resource.
-2.	Work with NHSD/Transformation Directorate to remove barriers/create resources for IT departments to make open source
-tools readily available for analysts.
-3.	Provide an ‘Ask us’ hub where leaders and analysts can refer their questions or issues so that they can get a "grass
-roots" view from the NHS-R Community on how these might be best addressed.
+2.	Work with NHSD/Transformation Directorate to remove barriers/create resources for IT departments to make open source tools readily available for analysts.
+3.	Provide an ‘Ask us’ hub where leaders and analysts can refer their questions or issues so that they can get a "grass roots" view from the NHS-R Community on how these might be best addressed.
 4.	Scaling local solutions nationally and vice-versa
 5.	Myth busting on "open-source" analytics including addressing security and information governance concerns.
 6.	Increased collaboration with national bodies such as NHS Transformation Directorate.
@@ -98,16 +81,14 @@ The following were identified.
 to newbies.
 3.	The NHS-R Community got too pre-occupied with contributing to the centre and so lost touch with grass roots
 analysts.
-4.	National data science teams/bodies did not feel as if they had a stake in the NHS-R Community and so disengaged with
-it and could not see its relevance.
+4.	National data science teams/bodies did not feel as if they had a stake in the NHS-R Community and so disengaged with it and could not see its relevance.
 5.	R lost out to Python or some other open data science tool.
 6.	The NHS-R Community did not offer enough "attractors" to analysts (eg wider training, support, development
 opportunities, etc).
 7.	The NHS-R Community did not have adequate funds to continue to support it.
 8.	The NHS-R Community  lost its central organising team and so disintegrated.
 
-This should inform our approach to risk over the coming years. We should focus on resilience, being forward thinking and
-responsive, maintaining our values, broadening the organising team, actively seeking & cultivating new members, and
+This should inform our approach to risk over the coming years. We should focus on resilience, being forward thinking and responsive, maintaining our values, broadening the organising team, actively seeking & cultivating new members, and
 finding funding solutions and partners that can support our activities.
 
 [intro_r]: https://github.com/nhs-r-community/intro_r
