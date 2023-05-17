@@ -1,5 +1,5 @@
 --- 
-title: "NHS-R Community Handbook"
+title: "NHS-R Community Statement on Tools"
 author: "NHS-R Community"
 date: "Last Updated `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,7 +9,7 @@ bibliography:
 - packages.bib
 csl: chicago.csl
 description: |
-  A set of resources for anyone using R within the NHS and beyond.
+  A set of resources for anyone using open data science tools in the NHS and beyond.
 link-citations: yes
 github-repo: nhs-r-community/statements-on-tools
 nocite: '@*'
@@ -26,8 +26,9 @@ knitr::write_bib(c(.packages(), "bookdown", "knitr", "rmarkdown", "tidyverse"), 
 knitr::include_graphics("https://nhs-r-community.github.io/assets/logo/nhsr-logo.svg")
 ```
 
-In this book we've compiled a set of resources for anyone using R within the NHS and beyond.
+In this book we've compiled a set of technical resources, links and write down our experiences of using open data science programs like R and Python within the NHS and beyond.
 
-If you'd like to see additional resources included here, feel free to [open an issue][create_issue]! 
+It is highly opinionated and is not representative or endorsed by the NHS or any organisations within the NHS, public sector or civil service. 
+Whilst the views are written by members of the NHS-R Community, these too may not necessarily be shared with everyone equally and even may change over time.
 
-[create_issue]: https://github.com/nhs-r-community/statements-on-tools/issues/
+If you'd like to contribute or comment feel free to open an issue on the [GitHub repository](https://github.com/nhs-r-community/statements-on-tools/issues/)

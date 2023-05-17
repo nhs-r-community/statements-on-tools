@@ -1,17 +1,15 @@
 # Purpose
 
-This book is a contribution of efforts and experiences from the members of the NHS-R Community - which is more than just NHS and greater than just R - in getting data science tools for their jobs. 
-Very often an analyst or data scientist (or anyone interested in analysis) wants to try to use R or Python, particularly if they are wanting to set up [Reproducible Analytical Pipelines](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/) with a code first approach, but getting access can sometimes be very difficult. 
+This book is a contribution of efforts and experiences from the members of the NHS-R Community - which is more than just NHS and includes more languages than just R - in getting data science tools for their jobs. 
+Very often an analyst or data scientist (or anyone interested in analysis) wants to try to use R or Python, particularly if they are wanting to set up [Reproducible Analytical Pipelines](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/) with a code first approach, and getting access can sometimes be very difficult. 
+Taking that a step further to opening up that code publicly can be an even greater hurdle.
 
-The NHS is not one organisation and the experiences in getting data science tools varies widely so this is an attempt to bring together those experiences, with suggestions, on how best to approach the issue of access. 
+The NHS is not one organisation and the experiences in getting data science tools varies widely so this is an attempt to bring together technical resources, links and write down our experiences of using open data science programs.
 The difficulties we encounter may well be shared with colleagues from all organisations, not just the NHS, and so we welcome all contributions to this collective knowledge.
 
-# NHS-R Community
+## NHS-R Community
 
-This book is being supported by the [NHS-R Community](https://nhsrcommunity.com/) which was set up in 2018 to promote the use of R in the NHS. 
+This book is being created by the [NHS-R Community](https://nhsrcommunity.com/) which was set up in 2018 to promote the use of R in the NHS. 
 As a community we have grown and built up a reputation for openness, sharing and support through training, webinars, conferences and a very active and friendly [Slack group](https://nhsrcommunity.slack.com/). 
-Whilst the focus was originally on R and the NHS, many members of the community use other tools and come from Local Authorities, Civil Service, Voluntary Sector and Charitable organisations as well as industry. 
-
-## NHS PyCom
-
-We are supporters of the [NHS PyCom](https://nhs-pycom.net/) with people often being on both communities and whilst our coding of choice may differ we have cross overs in data science areas like version control and sharing of code.
+Whilst the focus of NHS-R was originally on R and the NHS, many members of the community use other tools and come from local authorities, civil service, voluntary sector, charitable organisations, industry and some individuals who are not part of any organisation. 
+More detail on the NHS-R Community can be found in the NHS-R Way book which is published through both [GitHub](https://nhs-r-community.github.io/NHSR-way/) and [Netlify](https://nhsr-way.netlify.app/).

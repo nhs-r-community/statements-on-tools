@@ -5,13 +5,12 @@ A key part of this aim is to support every organisation in making R available as
 
 This is an evolving document which describes how and why to use R and other data science tools and to share and reuse code safely in health and social care settings.
 
-The scope and content are expanding all the time as the community collaboratively produces a definitive statement of the "NHS-R way".
+The scope and content are expanding all the time as the community collaboratively produces a definitive statement of the [NHS-R way](https://nhs-r-community.github.io/NHSR-way/).
 
 Please file issues, make pull requests, and get involved, we're very happy from hear from friends from inside and outside of NHS-R.
 
-Read it here https://nhs-r-community.github.io/statements-on-tools/
-
 ## About this chapter
+
 This chapter elaborates what is required to make R viable in practice. 
 R is a powerful language for statistical work and other kinds of data analysis. Much of this power comes from the way that R fits together with two important helpers: [R Studio](https://www.rstudio.com/) and R packages. 
 This chapter describes the way that R, R Studio, and R packages work together in non-technical language. 
