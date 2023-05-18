@@ -93,21 +93,32 @@ The Making source code open and reusable[-@gds-open] suggests making your code o
 
 ## Licences/Licenses
 
+### Language
+
 To clarify on spelling: [license](https://www.grammarly.com/blog/licence-license/) is both a noun and a verb in US English, but in UK English licence may be used for a noun and license as a verb.
-As the programs and tools, like GitHub, are often US based the word license is the usual expected spelling.
 This becomes important for searches, which is why the header title here has both spelling - just in case.
+
+The [GDS Way](https://gds-way.cloudapps.digital/manuals/licensing.html#language) says:
+
+>When using a proper name, use the appropriate spelling for that thing (e.g. the MIT License.)
+
+but also:
+
+> Each repository should include a licence file. This should be called LICENCE or LICENCE.md.
+
+### How to use licences
 
 Although documents like Data saves lives[-@data-saves-lives] states there was an intention to:
 
 >publish a digital playbook on how to open source your code for health and care organisations. Guidance on where to put the code, how to license and maintain it, and best practice for working with suppliers will be published in addition to case studies of teams who have done this – completed May 2022.
 
-this hasn't led to any particular document to explain when or how to use licenses.
+this hasn't led to any particular document to explain when or how to use licences.
 The reference to a digital playbook where the requirement is to:
 
 > create a project that can be used by other healthcare organisations
 
 links to case study [scenarios](https://transform.england.nhs.uk/key-tools-and-info/digital-playbooks/open-source-digital-playbook/i-want-to-create-a-project-that-can-be-used-by-other-healthcare-organisations/) which may have information, but which will require reading through to check and reference.
-One site that is listed is the CDU Data Science Team[-@cdu] and whilst this team used licenses there was never any explicit mention on how or when to use them.
+One site that is listed is the CDU Data Science Team[-@cdu] and whilst this team used licences there was never any explicit mention on how or when to use them.
 
 Government documents like the Duck book[-@duck] do have sections on [copyright and licenses](https://best-practice-and-impact.github.io/qa-of-code-guidance/project_documentation.html?highlight=licen#copyright-and-licenses) and their recommendations, along with the [Analysis Function](https://analysisfunction.civilservice.gov.uk/policy-store/open-sourcing-analytical-code/), are to use [MIT](https://opensource.org/license/mit/) and [OGL](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
@@ -121,11 +132,17 @@ However, many people who are part of the NHS-R Community are not considered [civ
 
 >... civil servants are defined much more narrowly than public sector workers: police, teachers, NHS staff, members of the armed forces and local government officers are not counted as civil servants.
 
-Even where a person's work is covered by being a Civil Servant, it is still really good practice to include the corresponding license to any published work as it cannot be assumed that people know the work is covered by the license or that the person was a Civil Servant.
+Even where a person's work is covered by being a civil servant, it is still really good practice to include the corresponding licence to any published work as it cannot be assumed that people know the work is covered by the licence or that the person was a civil servant.
 
-### NHS-R Community use of licenses
+Also, whilst some organisations in the NHS are considered Crown bodies like the Department of Health:
 
-NHS-R Community repositories are licensed under [MIT](https://pitt.libguides.com/openlicensing/MIT#:~:text=Like%20the%20Apache%202.0%2C%20and,sell%20copies%20of%20the%20software.) for code based projects like Shiny apps and packages:
+> Subsection (7) provides that, like NHS trusts, NHS foundation trusts are not Crown bodies: see paragraph 18 of Schedule 2 to the National Health Service and Community Care Act 1990 (“the 1990 Act”).
+
+[Health and Social Care (Community Health and Standards) Act 2003 Explanatory Notes](https://www.legislation.gov.uk/ukpga/2003/43/notes/division/5/1?view=plain#:~:text=Subsection%20(7)%20provides%20that%2C,%E2%80%9Cthe%201990%20Act%E2%80%9D).)
+
+### NHS-R Community use of licences
+
+NHS-R Community repositories are licenced under [MIT](https://pitt.libguides.com/openlicensing/MIT#:~:text=Like%20the%20Apache%202.0%2C%20and,sell%20copies%20of%20the%20software.) for code based projects like Shiny apps and packages:
 
 >the MIT License is a permissive software license that places few restrictions of reuse. Users of software using an MIT License are permitted to use, copy, modify, merge publish, distribute, sublicense and sell copies of the software. 
 
@@ -133,20 +150,21 @@ and [CC0](https://creativecommons.org/publicdomain/zero/1.0/) for text based pro
 
 > allows the creator to retain copyright whilst allowing others to copy and distribute and make use of their work non-commercially. The Creative Commons license also ensures creators get the recognition and credit for the work they produce and share.
 
-Whilst there is a cross over between text and code, these two licenses offer the freedom for resuse.
-
 ### Setting up licenses
 
 There are two ways to starting a repository for sharing on GitHub.
-Firstly, there is creating a repository directly on the [GitHub website](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and you can select the appropriate license as you do that. 
+Firstly, there is creating a repository directly on the [GitHub website](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and you can select the appropriate licence as you do that. 
 
-If, however, you create the project locally, using R for example, you can add a license to it using a package called {usethis} and typing in the R console:
+If, however, you create the project locally, using R for example, you can add a licence to it using a package called {usethis} and typing in the R console:
 
 ```
 usethis::use_cc0_license()
 usethis::use_mit_license()
 ```
 OGL though does not appear in the selections for {usethis} or GitHub.
+Crown Copyright sometimes appears as a separate licence as in the [{a11ytables}](https://github.com/co-analysis/a11ytables) and sometimes combined as in [pay-aminusers](https://github.com/alphagov/pay-adminusers/blob/master/LICENCE), an example referred to in the [GDS Way](https://gds-way.cloudapps.digital/manuals/licensing.html#example).
+
+Dual licences, like MIT and CC0 are not so commonly combined and there is more information on the [GitHub](https://adr.github.io/madr/decisions/0001-use-CC0-or-MIT-as-license.html) site about dual licensing.
 
 ## Useful blogs 
 
