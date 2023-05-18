@@ -2,3 +2,8 @@
 
 - **Reproducible Analytics Pipelines (RAP)**: analytics processes developed in open source programming languages and adhering to software engineering best practices to allow for reproducing analyses with very little effort.
 - **Repo/Repository**: a set of files organised in a project for a specific purpose, containing code or documentation under version control.
+- **OGL**: Open Government License
+- **MIT**: Massachusetts Institute of Technology (license)
+- **CC0**: Creative Commons (license)
+- **GDS**: Government Digital Services
+- **AF**: Analysis Function
