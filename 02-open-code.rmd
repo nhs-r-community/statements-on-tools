@@ -142,13 +142,7 @@ Also, whilst some organisations in the NHS are considered Crown bodies like the 
 
 ### NHS-R Community use of licences
 
-NHS-R Community repositories are licenced under [MIT](https://pitt.libguides.com/openlicensing/MIT#:~:text=Like%20the%20Apache%202.0%2C%20and,sell%20copies%20of%20the%20software.) for code based projects like Shiny apps and packages:
-
->the MIT License is a permissive software license that places few restrictions of reuse. Users of software using an MIT License are permitted to use, copy, modify, merge publish, distribute, sublicense and sell copies of the software. 
-
-and [CC0](https://creativecommons.org/publicdomain/zero/1.0/) for text based projects like training and books (like this):
-
-> allows the creator to retain copyright whilst allowing others to copy and distribute and make use of their work non-commercially. The Creative Commons license also ensures creators get the recognition and credit for the work they produce and share.
+The use of licences by NHS-R Community for the GitHub repositories will be detailed in the NHSR-Way book under [Style Guide for code](https://nhs-r-community.github.io/NHSR-way/style-guides.html#licenceslicenses).
 
 ### Setting up licenses
 
