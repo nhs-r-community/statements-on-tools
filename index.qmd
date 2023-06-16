@@ -1,28 +1,9 @@
---- 
-title: "NHS-R Community Statement on Tools"
-author: "NHS-R Community"
-date: "Last Updated `r Sys.Date()`"
-site: bookdown::bookdown_site
-documentclass: book
-bibliography:
-- book.bib
-- packages.bib
-csl: chicago.csl
-description: |
-  A set of resources for anyone using open data science tools in the NHS and beyond.
-link-citations: yes
-github-repo: nhs-r-community/statements-on-tools
-nocite: '@*'
----
+# Introduction
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(.packages(), "bookdown", "knitr", "rmarkdown", "tidyverse"), "packages.bib")
-```
-
-# Introduction {-}
-
-```{r, out.width="50%", fig.align="center", echo=FALSE}
+```{r}
+#| echo: false
+#| out-width: "50%"
+#| fig-align: "center"
 knitr::include_graphics("https://nhs-r-community.github.io/assets/logo/nhsr-logo.svg")
 ```
 
