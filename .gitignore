@@ -42,3 +42,5 @@ vignettes/*.pdf
 # do not commit bookdown artifacts
 docs/
 *.html
+
+/.quarto/
