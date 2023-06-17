@@ -1,1 +1,0 @@
-Sitemap: https://github.com/nhs-r-community/statements-on-tools/sitemap.xml
