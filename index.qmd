@@ -1,11 +1,6 @@
 # Introduction
 
-```{r}
-#| echo: false
-#| out-width: "50%"
-#| fig-align: "center"
-knitr::include_graphics("https://nhs-r-community.github.io/assets/logo/nhsr-logo.svg")
-```
+<a alt="NHS-R Community's logo" href='https://nhsrcommunity.com/'><img src='https://raw.githubusercontent.com/nhs-r-community/assets/main/logo/nhsr-logo.svg' align="center" height="100" /></a>
 
 In this book we've compiled a set of technical resources, links and write down our experiences of using open data science programs like R and Python within the NHS and beyond.
 
