@@ -1,0 +1,29 @@
+project:
+  type: book
+book:
+  title: "Statement on Tools"
+  author: "NHS-R Community"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - purpose.qmd
+    - open-code.qmd
+    - statement-on-using-tools.qmd
+    - nhsr-vision.qmd
+    - glossary.qmd
+  page-footer:
+    left: |
+      Statement on Tools by the NHS-R Community
+      
+      NHS-R Community makes all of their materials publicly available under open source licenses
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  repo-url: https://github.com/nhs-r-community/statements-on-tools
+  repo-branch: main
+  repo-actions: [edit, issue]
+  site-url: https://github.com/nhs-r-community/statements-on-tools
+
+
+format:
+  html:
+    theme: cosmo
