@@ -1,0 +1,54 @@
+# Open data in the NHS
+
+## Introduction
+Data are one of the core assets of the NHS.  
+Providing data in the right way to the right people at the right time will utterly revolutionise hospital and public health in the UK.  However, there is limited national and regional infrastructure supporting health data exchange, consistent data modelling and secure systems on which to run analytics.  This chapter focuses on the challenges around innovation and research within and between NHS entities, including governance and some cybersecurity considerations.
+
+Please note:
+  - while this information may be of general use, it is focused on data in a hospital setting, due to the author's experience;
+- the scope of this chapter is limited mostly to areas of analytics, research and innovation, rather than operational clinical informatics, so does not address the direct exchange of the patient record for the purposes of clinical care.
+
+### Glossary
+
+- **Reproducible Analytics Pipelines (RAP)**: analytics processes developed in open source programming languages and
+adhering to software engineering best practices to allow for reproducing analyses with very little effort.
+- **Repo/Repository**: a set of files organised in a project for a specific purpose (such as 
+[statements-on-tools][statments-on-tools] itself), containing code or documentation under version control.
+
+## Context
+
+- Siloed data, siloed innovation within and between NHS Trusts
+- Fragmented data modeling efforts - research-project-by-research-project
+- Variable interoperability levels between EPRs
+- Information governance, cybersecurity and data sharing
+- Data's intrinsic value vs. democratised innovation
+
+## Data models
+
+- Bespoke (per-project)
+- OMOP
+- FHIR
+- *Others?*
+  
+  ## Data use cases
+  
+  - Research
+- Clinical Ops/analytics (dashboards)
+- Innovation
+- Operational (benchmarking)
+- (Clinical care - e.g. transferring medical records for joined-up care)
+
+## Approaches
+
+### Current
+
+### Dummy data
+
+### Synthetic data
+
+### Federated analytics
+
+### Secure multiparty computation
+
+## Useful links
+

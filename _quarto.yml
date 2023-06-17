@@ -10,6 +10,7 @@ book:
     - open-code.qmd
     - statement-on-using-tools.qmd
     - nhsr-vision.qmd
+    - open-data.qmd
     - glossary.qmd
   page-footer:
     left: |
