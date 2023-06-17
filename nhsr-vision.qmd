@@ -2,9 +2,9 @@
 
 ## Using R in research
 
-> A mistake in the operating room can threaten the life of one patient; a mistake in statistical analysis or
-interpretation can lead to hundreds of early deaths. 
-So it is perhaps odd that, while we allow a doctor to conduct surgery only after years of training, we give SPSS® (SPSS, Chicago, IL) to almost anyone. Moreover, whilst only a surgeon would comment on surgical technique, it seems that anybody, regardless of statistical training, feels confident about commenting on statistical data.
+> A mistake in the operating room can threaten the life of one patient; a mistake in statistical analysis or interpretation can lead to hundreds of early deaths. 
+So it is perhaps odd that, while we allow a doctor to conduct surgery only after years of training, we give SPSS® (SPSS, Chicago, IL) to almost anyone. 
+Moreover, whilst only a surgeon would comment on surgical technique, it seems that anybody, regardless of statistical training, feels confident about commenting on statistical data.
 
 *@vickers_interpreting_2005*
 
@@ -69,26 +69,21 @@ The following areas were identified.
 4.	Scaling local solutions nationally and vice-versa
 5.	Myth busting on "open-source" analytics including addressing security and information governance concerns.
 6.	Increased collaboration with national bodies such as NHS Transformation Directorate.
-7.	Set up an NHS Data Science Event (say over 3 to 5 days) for the NHS to identify common problems and develop shared
-solutions.
+7.	Set up an NHS Data Science Event (say over 3 to 5 days) for the NHS to identify common problems and develop shared solutions.
 
 ### We asked a pre-mortem question - imagine the NHS-R Community has died, what led to its demise?
 
 The following were identified.
 
 1.	The NHS-R Community  was too reliant on volunteers who were unable to sustain their input.
-2.	The NHS-R Community lost its values and was no longer a brand that was seen as safe, trusted, welcoming, especially
-to newbies.
-3.	The NHS-R Community got too pre-occupied with contributing to the centre and so lost touch with grass roots
-analysts.
+2.	The NHS-R Community lost its values and was no longer a brand that was seen as safe, trusted, welcoming, especially to newbies.
+3.	The NHS-R Community got too pre-occupied with contributing to the centre and so lost touch with grass roots analysts.
 4.	National data science teams/bodies did not feel as if they had a stake in the NHS-R Community and so disengaged with it and could not see its relevance.
 5.	R lost out to Python or some other open data science tool.
-6.	The NHS-R Community did not offer enough "attractors" to analysts (eg wider training, support, development
-opportunities, etc).
+6.	The NHS-R Community did not offer enough "attractors" to analysts (eg wider training, support, development opportunities, etc).
 7.	The NHS-R Community did not have adequate funds to continue to support it.
 8.	The NHS-R Community  lost its central organising team and so disintegrated.
 
-This should inform our approach to risk over the coming years. We should focus on resilience, being forward thinking and responsive, maintaining our values, broadening the organising team, actively seeking & cultivating new members, and
-finding funding solutions and partners that can support our activities.
+This should inform our approach to risk over the coming years. We should focus on resilience, being forward thinking and responsive, maintaining our values, broadening the organising team, actively seeking & cultivating new members, and finding funding solutions and partners that can support our activities.
 
 [intro_r]: https://github.com/nhs-r-community/intro_r
