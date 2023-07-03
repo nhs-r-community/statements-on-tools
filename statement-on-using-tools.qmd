@@ -5,7 +5,7 @@ A key part of this aim is to support every organisation in making R available as
 
 This is an evolving document which describes how and why to use R and other data science tools and to share and reuse code safely in health and social care settings.
 
-The scope and content are expanding all the time as the community collaboratively produces a definitive statement of the [NHS-R way](https://nhs-r-community.github.io/NHSR-way/).
+The scope and content are expanding all the time as the community collaboratively produces a definitive statement of the [NHS-R way](https://nhsrway.nhsrcommunity.com/).
 
 Please file issues, make pull requests, and get involved, we're very happy from hear from friends from inside and outside of NHS-R.
 
@@ -112,8 +112,8 @@ And these packages are freely available to the community.
 That community spirit is an important part of the open software movement. 
 We think that sharing useful code in an open way is important. 
 Governments too think similarly. For example, see the requirement to make new code open source from [NHS England digital openness](https://service-manual.nhs.uk/standards-and-technology/service-standard-points/12-make-new-source-code-open) and similar from ScotGov. 
-The recent Goldacre review (2022) comes to similar conclusions:
-  
+The [Better, broader and safer using health data for research and analysis (Goldacre)](#BBS) comes to similar conclusions:
+
 >**Libraries**
 Useful functions often outgrow individual projects and build a broader user-base, especially when a large number of users are all trying to solve the same suite of related problems, with a range of related functions. 
 When this happens, more experienced programmers move the work into reusable code 'libraries' and share them through package indexes or archive networks. 
@@ -122,10 +122,8 @@ Popular libraries tend to be well documented and come with clear explanations an
 By creating and sharing a library, researchers contribute to the broader research community. 
 This more advanced variety of code sharing is common in many areas of scientific research, such as Geographic Information Science, but it is less common at present in health data research.
 
-[Better, broader, safer: using health data for research and analysis](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#information-governance-ethics-and-participation)
-                                                                      
 We believe that this approach is safe, and are not aware of any data protection issues that have arisen because of the use of packages in R.
-                                                                      
+
 ## An example
 <img src="https://i.imgur.com/DPrxXXj.jpg" height="300">
 
