@@ -1,5 +1,11 @@
 # NHS-R vision
 
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## To be reviewed
+Due to the creation of the NHS-R Way book this section needs reviewing.
+:::
+
+
 ## Using R in research
 
 > A mistake in the operating room can threaten the life of one patient; a mistake in statistical analysis or interpretation can lead to hundreds of early deaths. 
