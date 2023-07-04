@@ -72,12 +72,16 @@ The package {quarto} contains functions that can be used in R to run some of the
 For example, to preview this book, in the command line the code is:
 
 ```{bash}
+#| echo: true
+#| eval: false
 quarto render
 ```
 
 but in R using {quarto} it is:
 
 ```{r}
+#| echo: true
+#| eval: false
 quarto::quarto_render()
 ```
 
@@ -112,6 +116,8 @@ A prompt window will appear with the versions available to uninstall.
 {installr} has a few other functions that could be useful for installing other programs such as:
 
 ```{r}
+#| echo: true
+#| eval: false
 installr::install.git()
 installr::install.python()
 installr::install.RStudio() # will open up the relevant page if it cannot install
