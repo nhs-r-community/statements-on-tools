@@ -65,7 +65,7 @@ Quarto also allows for more flexibility in use by people who use Python and pref
 The latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) https://quarto.org/docs/get-started/.
 
 ::: aside
-The Quarto CLI download is a `win.msi` file so many not require authorisation from IT teams to download and install.
+The Quarto CLI download is a `win.msi` file so may not require authorisation from IT teams to download and install.
 :::
 
 The package {quarto} contains functions that can be used in R to run some of the command line commands and isn't necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio.

@@ -22,7 +22,7 @@ book:
   repo-url: https://github.com/nhs-r-community/statements-on-tools
   repo-branch: main
   repo-actions: [edit, issue]
-  site-url: https://github.com/nhs-r-community/statements-on-tools
+  site-url: https://tools.nhsrcommunity.com/
 
 
 format:
