@@ -1,5 +1,11 @@
 # NHS-R vision
 
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## To be reviewed
+Due to the creation of the NHS-R Way book this section needs reviewing.
+:::
+
+
 ## Using R in research
 
 > A mistake in the operating room can threaten the life of one patient; a mistake in statistical analysis or interpretation can lead to hundreds of early deaths. 
@@ -9,23 +15,20 @@ Moreover, whilst only a surgeon would comment on surgical technique, it seems th
 *@vickers_interpreting_2005*
 
 The NHS, as one of the largest hospital and healthcare systems, is a world leader in research. 
-Research and evaluation are carried out as funded projects as well as unfunded audits/ evaluation. Both of which often require statistics- the analysis often being done in SPSS/ SAS or Excel. 
+Research and evaluation are carried out as funded projects as well as unfunded audits/ evaluation. Both of which often require statistics - the analysis often being done in SPSS/ SAS or Excel. 
 These methods can produce flawed analyses which, moreover, are not reproducible. 
 
-Many trusts do not employ statistics experts and will only be able to get statistical help on funded work by buying in
-time from academic/external statisticians. 
+Many trusts do not employ statistics experts and will only be able to get statistical help on funded work by buying in time from academic/external statisticians. 
 This means that the pilot work that clinicians do prior to applying for large grants can often be flawed, or promising work ends up not being completed and the grants never awarded because they didn't have the statistics expertise.
 
-While we would not expect clinicians to become expert coders, the NHS-R community should work to develop and deliver
-training that would help clinicians to be able to use R, including the development of training specifically for those
-with a clinical/ non coding background. 
-This training needs to include R for statistics as well as the more commonly included [data wrangling and visualisation][intro_r].
+While we would not expect clinicians to become expert coders, the NHS-R community should work to develop and deliver training that would help clinicians to be able to use R, including the development of training specifically for those with a clinical/ non coding background. 
+This training needs to include R for statistics as well as the more commonly included data wrangling and visualisation.
 
 Better collaboration between R users working in academia and those in the NHS would also be beneficial.
 
 ## Training
 
-The NHS-R community has developed/ is developing training on introduction to R, Shiny, R Markdown, git, and interactive plotting, amongst other things. 
+The NHS-R Community has developed/is developing training with many of the workshops being made available on the NHS-R Community YouTube channel and course material available on its GitHub (brought together in a [Training book]()). 
 
 * Where are the gaps in training provision at the current time?
 * How can NHS-R maintain/ increase the amount of training that it is able to deliver free to health and social care
