@@ -107,7 +107,7 @@ RStudio will not update the R version automatically - the version can be seen at
 ## Uninstall previous versions of R
 
 Installing later versions of R won't remove the previous and these can stay on a computer or be removed (often requires admin rights to the computer).
-The package {installr} has a function `installr::uninstall.r()` which may not required admin rights.
+The package {installr} has a function `uninstall.r()` which may not required admin rights.
 
 A prompt window will appear with the versions available to uninstall.
 
