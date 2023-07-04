@@ -9,6 +9,7 @@ book:
     - purpose.qmd
     - open-code.qmd
     - statement-on-using-tools.qmd
+    - r-info.qmd
     - nhsr-vision.qmd
     - glossary.qmd
   page-footer:

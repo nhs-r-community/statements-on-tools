@@ -1,0 +1,120 @@
+# R Information
+
+## What programs are required
+
+To write R code you will need the [R program](https://cran.r-project.org/bin/windows/base/), an IDE (Integrated Development Environment) like [RStudio](https://posit.co/download/rstudio-desktop/) or [VSCode](https://code.visualstudio.com/) and (for Windows) the [RTools](https://cran.r-project.org/bin/windows/Rtools/) program.
+
+It is possible to code with the R language in just the R program however, it is not possible to use RStudio or VS Code without the R program as it is essentially the "engine".
+Both RStudio and VS Code are more visually friendly graphical user interfaces (GUI).
+
+RTools is used by Windows to build some packages and, although there are sometimes warnings when this isn't installed, it is not always required.
+As people in the NHS and other public sector organisations will have to contact IT teams for access to software it is advisable to ask for RTools just in case this is an issue.
+
+## Getting R 
+
+The link to to the [R program](https://cran.rstudio.com/) has a few links so for Windows select `Download R for Windows`, then the subdirectory `base` which has the same link as `install R for the first time`. 
+The uppermost link will say `Download R-` with the version `for Windows`.
+
+## Packages
+
+R programming uses a lot of packages to build on the functionality of R and many of the packages are shared openly through GitHub.
+From GitHub, some people submit their packages for inclusion into [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network.
+
+CRAN packages are checked for functionality, for example, that they can run on various operating systems, however, there will not be a check for the validity of content.
+That means that if there is a mistake in the package, as an example, in a statistical test, this won't have been checked.
+However, because all packages are open to view and contribute to bugs, issues and recommendations for improvements can be found in the corresponding GitHub repositories.
+
+## Asking for access to packages outside CRAN
+
+Whilst some IT teams may restrict access just to CRAN this can be too restrictive as public sector and civil service packages are sometimes not submitted to CRAN due to their being in development (too many changes in quick succession can prevent inclusion into CRAN) or not wishing to go through the checks which may not be necessary (being able to run on a Mac, for example, is not necessary when Windows systems are more commonly used in public sector).
+
+Some packages are peer reviewed for content such as the UKHSA (previously Public Health England) package [{fingertipsR}](https://github.com/ropensci/fingertipsR) that is available through [ROpenSci](https://ropensci.org/).
+Consequently, when contacting an IT team to have permission to use packages, it is advisable to ask for access to install these yourself, with access to GitHub packages and to be able to update them regularly.
+
+Having the ability to install and update packages does not require administrator access on a computer.
+
+## Updating packages
+
+Packages will be loaded to libraries that are specific to the user if the computer is used on a network drive. 
+Consequently, if installation of packages is on a case by case basis, it will be necessary to ensure that each team member has the package installed in their own user folder.
+
+As is good practice with programs and apps, regular checks for updates should be made and if these need to be done by IT this should be scheduled according to the user's requirements. 
+This is because there are two approaches to updating packages, the first is to update regularly which can be useful to fix any bugs and get updated functions as they are added.
+However, issues can arise as new functions can have bugs and older bugs may have "workarounds" in analysis code that could break.
+
+:::{.callout-note collapse=false appearance='default' icon=true}
+## Updating the R program 
+It's worth noting that updating the R program will require packages to be reinstalled.
+This won't happen if only RStudio is updated.
+:::
+
+The other approach to updating packages is in a controlled way so as to not break code.
+The issue with this is that latest functionality is lost to the analysis and may never be introduced, in case something breaks.
+
+To assist with this there are pipeline packages like [{renv}](https://rstudio.github.io/renv/articles/renv.html) which takes a snapshot of the packages as they are used in code and which can be retained within a project environment so that changes outside don't affect the analysis:
+
+> it records the version of R + R packages being used in a project, and provides tools for reinstalling the declared versions of those packages in a project
+
+These snapshots can also be shared with other members of the team who are working on the same project.
+
+## Quarto
+
+Quarto is the next generation of reporting from RMarkdown that allows for code and text to be used together to produce a wide variety of outputs like word, pdf, PowerPoint, slides, books and websites.
+Quarto also allows for more flexibility in use by people who use Python and prefer to use VS Code (or other IDEs).
+
+The latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) https://quarto.org/docs/get-started/.
+
+::: aside
+The Quarto CLI download is a `win.msi` file so many not require authorisation from IT teams to download and install.
+:::
+
+The package {quarto} contains functions that can be used in R to run some of the command line commands and isn't necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio.
+For example, to preview this book, in the command line the code is:
+
+```{bash}
+quarto render
+```
+
+but in R using {quarto} it is:
+
+```{r}
+quarto::quarto_render()
+```
+
+## Updating R from a package
+
+The package {installr} has the function `updateR()` that updates R.
+A pop up will appear if the version available is later than the one installed but if it is run from RStudio the message:
+
+> It is best to run `updateR()` from Rgui and not from RStudio. Would you like to abort the installation and run it again from RGui?
+
+will appear.
+
+- To find the R program in Windows click on the windows icon and start type `R`.
+- If the program cannot be found and you are on a networked system with user accounts then go to in Windows Explorer and look in the folder `C:\Users\YOUR.NAME\AppData\Local\Programs\R\R-4.3.0\bin\x64` with the file being `R.exe` for just the command line or `Rgui.exe` which has menus and buttons.
+
+RStudio will not update the R version automatically - the version can be seen at the top of the Console or by typing `R.version` in the console.
+
+- To update go to `Tools/Global options` and the opening menu will have R session at the top. 
+- Clicking on the `Change...` button will open up a screen with the versions of R available to RStudio.
+- Select the third radio button option to select the R version which will mean you can select the version you require.
+- RStudio will then prompt to close and restart RStudio.
+
+## Uninstall previous versions of R
+
+Installing later versions of R won't remove the previous and these can stay on a computer or be removed (often requires admin rights to the computer).
+The package {installr} has a function `installr::uninstall.r()` which may not required admin rights.
+
+A prompt window will appear with the versions available to uninstall.
+
+## {installr}
+
+{installr} has a few other functions that could be useful for installing other programs such as:
+
+```{r}
+installr::install.git()
+installr::install.python()
+installr::install.RStudio() # will open up the relevant page if it cannot install
+installr::install.Rtools()
+```
+
