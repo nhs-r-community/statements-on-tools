@@ -1,4 +1,4 @@
-# R Information
+# Technical guidance - R {#tech-r}
 
 ## What programs are required
 
@@ -15,7 +15,7 @@ As people in the NHS and other public sector organisations will have to contact 
 The link to to the [R program](https://cran.rstudio.com/) has a few links so for Windows select `Download R for Windows`, then the subdirectory `base` which has the same link as `install R for the first time`. 
 The uppermost link will say `Download R-` with the version `for Windows`.
 
-## Packages
+## Packages {#packages}
 
 R programming uses a lot of packages to build on the functionality of R and many of the packages are shared openly through GitHub.
 From GitHub, some people submit their packages for inclusion into [CRAN](https://cran.r-project.org/) - The Comprehensive R Archive Network.
@@ -71,19 +71,11 @@ The Quarto CLI download is a `win.msi` file so may not require authorisation fro
 The package {quarto} contains functions that can be used in R to run some of the command line commands and isn't necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio.
 For example, to preview this book, in the command line the code is:
 
-```{bash}
-#| echo: true
-#| eval: false
-quarto render
-```
+`quarto render`
 
 but in R using {quarto} it is:
 
-```{r}
-#| echo: true
-#| eval: false
-quarto::quarto_render()
-```
+`quarto::quarto_render()`
 
 ## Updating R from a package
 
@@ -115,9 +107,7 @@ A prompt window will appear with the versions available to uninstall.
 
 {installr} has a few other functions that could be useful for installing other programs such as:
 
-```{r}
-#| echo: true
-#| eval: false
+```
 installr::install.git()
 installr::install.python()
 installr::install.RStudio() # will open up the relevant page if it cannot install
