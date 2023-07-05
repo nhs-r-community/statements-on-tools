@@ -18,14 +18,6 @@ jobs:
         with:
           use-public-rspm: true
           
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages:
-            any::knitr
-            any::rmarkdown
-
-      - uses: r-lib/actions/setup-renv@v2
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
