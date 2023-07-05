@@ -14,6 +14,7 @@ book:
     - glossary.qmd
   appendices: 
     - technical-r.qmd
+    - technical-python.qmd
   page-footer:
     left: |
       Statement on Tools by the NHS-R Community
