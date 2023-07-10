@@ -11,10 +11,10 @@ book:
     - open-code.qmd
     - statement-on-using-tools.qmd
     - nhsr-vision.qmd
-    - glossary.qmd
   appendices: 
     - technical-r.qmd
     - technical-python.qmd
+    - glossary.qmd
   page-footer:
     left: |
       Statement on Tools by the NHS-R Community
