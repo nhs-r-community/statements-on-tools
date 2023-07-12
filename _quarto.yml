@@ -14,6 +14,7 @@ book:
   appendices: 
     - technical-r.qmd
     - technical-python.qmd
+    - contribution.qmd
     - glossary.qmd
   page-footer:
     left: |
