@@ -1,6 +1,7 @@
 project:
   type: book
-
+  resources:
+    - CNAME
 book:
   title: "Statement on Tools"
   author: "NHS-R Community"
@@ -9,7 +10,9 @@ book:
     - index.qmd
     - purpose.qmd
     - open-code.qmd
-    - statement-on-using-tools.qmd
+    - statement-on-using-tools-r.qmd
+    - statement-on-using-tools-python.qmd
+    - statement-on-using-tools-git.qmd
     - nhsr-vision.qmd
   appendices: 
     - technical-r.qmd
@@ -27,7 +30,6 @@ book:
   repo-branch: main
   repo-actions: [edit, issue]
   site-url: https://tools.nhsrcommunity.com/
-
 
 format:
   html:

@@ -1,0 +1,3 @@
+# Statement on using tools - Python
+
+\[TODO\] Holding text to be clear this is broader in scope than just R
