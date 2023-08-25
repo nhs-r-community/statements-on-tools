@@ -77,6 +77,35 @@ And also Government guidance, [When code should be open or closed](https://www.g
 
 > Unless your database schema contains credentials it is not sensitive and can be open. You should store any credentials separately and keep them closed.
 
+### Concerns over code being "sold" back to the NHS at a profit
+
+This is an argument that is often used and not necessarily with any examples of when this has ever occurred.
+Nevertheless, if it did happen we can explore that as the end result is not necessarily a reason to not share publicly.
+
+#### Adding value
+
+The courses from NHS-R Community are all open to the public and can be used by anyone to learn, teach or amend.
+Nevertheless, they are being used by organisations, like the Strategy Unit (part of NHS Midlands and Lancashire Commissioning Strategy Unit), who use the materials and offer training sessions at a daily rate for the workshops.
+This means that, although the materials are free, the services of the person running the course is being paid for and that's an added service.
+
+The same may be the case for code that is built upon, so if a model is taken and enhanced, then that's an added service.
+Of course, that subsequent code may not be made available to the public, but the original will be so it's upon the purchaser to make that judgement on whether a service that leads to closed code is a good thing to purchase.
+
+#### Selling back the same code
+
+Taking the idea of adding value further, what if a company got hold of freely shared code and sold it back to the NHS?
+Under these circumstances that is unfortunate but the mistake that is made here is on not looking for the code in the open in the first place and that could be related to the level of knowledge of the staff on open code.
+A better remedy would be promoting the use of open code and supporting staff in this professional field to use and contribute to open code areas like GitHub.
+
+#### Taking ideas and selling them back
+
+If there were a situation where something is written, for example, a proposal which is taken up by a consultancy and sold back verbatim, this is again unfortunate as there is an unnecessary cost.
+However, there is a point that the sharing was beneficial because the idea was worthwhile.
+Many consultancies already work on the basis of talking to staff when given a project and gaining information from people at all levels, something that may not have happened internally.
+Ideas from people "doing the work" do not always go as high as the board but can get there more easily when filtered through management consultancies.
+
+If we are concerned about being sold our own work then, by putting it out in the open, we are also allowing discovery of it by everyone.
+
 ### Coding in the open
 
 There is, currently, no one policy or procedure that can be referred to in terms of coding in the open. 
