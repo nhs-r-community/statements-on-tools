@@ -1,0 +1,15 @@
+# Statement on using tools - Shiny
+
+[Shiny](https://cran.r-project.org/web/packages/shiny/index.html) is an R package which allows users to create dashboards. Although it is very easy to build Shiny dashboards on a local computer, developers in health and social care often get stuck when they want to share their dashboard with others. There are numerous ways to go about this depending on who you want to share it with and where they are, and some of the methods are listed below.
+
+## Posit Connect server
+
+[Posit Connect](https://posit.co/products/enterprise/connect/) is probably the simplest way to share a Shiny application once it is set up and working, however it is not free. You will also need a Linux server, either in the cloud or on your organisations network, on which to run the software. Once it is set up you will have access to a wide range of features, including authenticated access to Shiny dashboards and RMarkdown/ Quarto documents, as well as the facility to run RMarkdown/ Quarto on a schedule. Note also that Posit Connect works with Python content.
+
+## shinyapps.io
+
+[shinyapps.io](https://www.shinyapps.io/) is also a paid service which can give you the ability to easily deploy Shiny applications in the cloud, and you can optionally add user authentication to your Shiny applications. The downside is that shinyapps.io is not suitable for use with sensitive data because you have no control over which server your data is hosted on.
+
+## Network file storage
+
+You can distribute Shiny applications and the data associated with them on your organisational network file storage. This is a very secure way of distributing your work but the downside is that the people you are sharing it with need to actually run the code themselves with an installation of R and all of the packages in the Shiny application. This method is therefore only really useful to share your work with other data scientists.
