@@ -34,4 +34,7 @@ book:
 
 format:
   html:
+    grid:
+      sidebar-width: 325px
     theme: cosmo
+  
