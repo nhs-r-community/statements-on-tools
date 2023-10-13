@@ -2,8 +2,7 @@
 
 ## Introduction
 
-There are number of organisations and publications advocating open coding in its various guises within the NHS and more
-generally across the public sector and academia.
+There are number of organisations and publications advocating open coding in its various guises within the NHS and more generally across the public sector and academia.
 This page is intended as a place to collate relevant literature and proposed/tried approaches to implement open code policies in the NHS, from individual teams up to entire organisations.
 
 There is also a significant crossover between open code and software engineering best practice, which means that they are often promoted together as an effective means to improve reproducibility.
@@ -89,7 +88,7 @@ Nevertheless, they are being used by organisations, like the Strategy Unit (part
 This means that, although the materials are free, the services of the person running the course is being paid for and that's an added service.
 
 The same may be the case for code that is built upon, so if a model is taken and enhanced, then that's an added service.
-Of course, that subsequent code may not be made available to the public, but the original will be so it's upon the purchaser to make that judgement on whether a service that leads to closed code is a good thing to purchase.
+Of course, that subsequent code may not be made available to the public, but the original will be so it's upon the purchaser to make that judgement on whether a service that leads to closed code is a good thing to purchase and our suggestion is that it's always considered an important part of procurement that code is made open.
 
 #### Selling back the same code
 
@@ -99,7 +98,7 @@ A better remedy would be promoting the use of open code and supporting staff in 
 
 #### Taking ideas and selling them back
 
-If there were a situation where something is written, for example, a proposal which is taken up by a consultancy and sold back verbatim, this is again unfortunate as there is an unnecessary cost.
+If there were a situation where something is written, for example, a proposal which is taken up by a consultancy and sold back verbatim, this is again unfortunate as there is an unnecessary cost to public funds.
 However, there is a point that the sharing was beneficial because the idea was worthwhile.
 Many consultancies already work on the basis of talking to staff when given a project and gaining information from people at all levels, something that may not have happened internally.
 Ideas from people "doing the work" do not always go as high as the board but can get there more easily when filtered through management consultancies.
