@@ -1,6 +1,6 @@
 project:
   type: book
-  resources:
+resources:
     - CNAME
 book:
   title: "Statement on Tools"
