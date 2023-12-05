@@ -1,3 +1,23 @@
 # Statement on using tools - Git and GitHub
 
 \[TODO\] Holding text to be clear this is broader in scope than just R
+
+Git is item two on the "baseline fundamentals" level of RAP, and necessary before moving on much further. https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/#baseline-rap---getting-the-fundamentals-right
+
+
+## GitHub repositories
+
+Examples of organisations that are using GitHub:
+
+### NHS
+[Nottinghamshire Healthcare NHS Foundation Trust](https://github.com/CDU-data-science-team/)
+[NHS England](https://github.com/nhsengland)
+[Midlands and Lancashire Commissioning Support Unit](https://github.com/MLCSU)
+[The Strategy Unit](https://github.com/The-Strategy-Unit)
+[Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)
+
+### Government
+[Ministry of Justice](https://github.com/ministryofjustice)
+
+### Local Authorities
+[Trafford Data Lab](https://github.com/traffordDataLab)
