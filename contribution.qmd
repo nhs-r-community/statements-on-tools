@@ -49,6 +49,15 @@ The best way to do this is with the {usethis} package with "gzip" compression:  
 
 When contributing any additions, the contributor certifies that they are the author, or has cited the author and is authorised to reuse/reference the material
 
+## Code of Conduct
+
+When contributing to the NHS-R Community GitHub's the Code of Conduct should be followed and can be found in the repository as `CODE_OF_CONDUCT.md`.
+This document can be generated, if missing or it is a new repository by using the {usethis} package and the following code:
+
+```
+usethis::use_code_of_conduct(contact = "nhs.rcommunity@nhs.net")
+```
+
 ## Acknowledgements
 
 This contributing guide is adapted from [NHS Digital's Contributor's Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md).
