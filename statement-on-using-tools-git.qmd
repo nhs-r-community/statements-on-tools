@@ -10,14 +10,23 @@ Git is item two on the "baseline fundamentals" level of RAP, and necessary befor
 Examples of organisations that are using GitHub:
 
 ### NHS
-[Nottinghamshire Healthcare NHS Foundation Trust](https://github.com/CDU-data-science-team/)
-[NHS England](https://github.com/nhsengland)
-[Midlands and Lancashire Commissioning Support Unit](https://github.com/MLCSU)
-[The Strategy Unit](https://github.com/The-Strategy-Unit)
-[Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)
+[Nottinghamshire Healthcare NHS Foundation  Trust](https://github.com/CDU-data-science-team/)  
+[NHS England](https://github.com/nhsengland)  
+[RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
+[Midlands and Lancashire Commissioning Support Unit](https://github.com/MLCSU)  
+[The Strategy Unit](https://github.com/The-Strategy-Unit)  
+[Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)  
+[Birmingham and Solihull ICS](https://github.com/Birmingham-and-Solihull-ICS)     
+
+[Public Health Scotland](https://github.com/Public-Health-Scotland)  
+[Public Health Wales](https://github.com/public-health-wales-health-intelligence)
 
 ### Government
-[Ministry of Justice](https://github.com/ministryofjustice)
+[Ministry of Justice](https://github.com/ministryofjustice)  
+[UKHSA](https://github.com/UKHSA-Internal)
 
 ### Local Authorities
 [Trafford Data Lab](https://github.com/traffordDataLab)
+
+### Charity
+[The Health Foundation](https://github.com/HFAnalyticsLab)
