@@ -17,17 +17,22 @@ Examples of organisations that are using GitHub:
 * [Nottinghamshire Healthcare NHS Foundation  Trust](https://github.com/CDU-data-science-team/)  
 * [NHS Business Services Authority](https://github.com/nhsbsa-data-analytics)
 * [NHS England](https://github.com/nhsengland)  
+* [NHS England - Open Health Statistics](https://nhsengland.github.io/open-health-statistics/)
 * [Public Health Scotland](https://github.com/Public-Health-Scotland)  
 * [Public Health Wales](https://github.com/public-health-wales-health-intelligence)
 * [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
+
 
 ### Government
 
 * [The Analysis Function](https://github.com/best-practice-and-impact)
 * Cabinet Office [central](https://github.com/cabinetoffice) and [Analysis & Insight](https://github.com/co-analysis)
 * [Department for Environment, Food and Rural Affairs (Defra) Data Science Centre of Excellence](https://github.com/Defra-Data-Science-Centre-of-Excellence)
-* Department for Education [R Community](https://github.com/DfE-R-Community) and [Analytical Services](https://github.com/dfe-analytical-services)
+* Department for Education 
+  - [Analytical Services](https://github.com/dfe-analytical-services)
+  - [R Community](https://github.com/DfE-R-Community) 
+  - [DfE Digital](https://github.com/DFE-Digital)
 * [Department for Health and Social Care Data Science](https://github.com/DataS-DHSC)
 * [Government Digital Service](https://github.com/alphagov)
 * Ministry of Justice [central](https://github.com/ministryofjustice) and [Analytical Services](https://github.com/moj-analytical-services)
