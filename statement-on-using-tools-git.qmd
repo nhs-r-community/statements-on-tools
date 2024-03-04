@@ -1,13 +1,17 @@
 # Statement on using tools - Git and GitHub
 
-\[TODO\] Holding text to be clear this is broader in scope than just R
+Using R (or Python) is just the first step towards data science with the use of Git being item two on the ["baseline fundamentals"](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/#baseline-rap---getting-the-fundamentals-right) level of Reproducible Analytical Pipelines (RAP). 
+Without the use of Git it is not possible to move to Silver or Gold and with good reason because it is integral to being able to produce analysis and code that is:
 
-Git is item two on the "baseline fundamentals" level of RAP, and necessary before moving on much further. https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/#baseline-rap---getting-the-fundamentals-right
+- more efficient
+- more robust
+- more transparent
 
+Much more is written about Git in the [NHS RAP Community of Practice](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/) and so this chapter serves to add only a few things to that work.
 
-## GitHub repositories
+## GitHub repositories {#github-examples}
 
-Examples of organisations that are using GitHub:
+These examples of organisations that are using GitHub serve as a reference to the increasing public sector and Government organisations and teams that publish code:
 
 ### NHS
 
@@ -23,27 +27,86 @@ Examples of organisations that are using GitHub:
 * [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
 
-
-### Government
-
-* [The Analysis Function](https://github.com/best-practice-and-impact)
-* Cabinet Office [central](https://github.com/cabinetoffice) and [Analysis & Insight](https://github.com/co-analysis)
-* [Department for Environment, Food and Rural Affairs (Defra) Data Science Centre of Excellence](https://github.com/Defra-Data-Science-Centre-of-Excellence)
-* Department for Education 
-  - [Analytical Services](https://github.com/dfe-analytical-services)
-  - [R Community](https://github.com/DfE-R-Community) 
-  - [DfE Digital](https://github.com/DFE-Digital)
-* [Department for Health and Social Care Data Science](https://github.com/DataS-DHSC)
-* [Government Digital Service](https://github.com/alphagov)
-* Ministry of Justice [central](https://github.com/ministryofjustice) and [Analytical Services](https://github.com/moj-analytical-services)
-* [Scottish Government Analysis](https://github.com/ScotGovAnalysis)
-* UKHSA [Collaboration](https://github.com/ukhsa-collaboration) and [Internal](https://github.com/UKHSA-Internal)
-
-### Local Government
+### England Local Government
 
 * [London Borough of Hackney](https://github.com/LBHackney-IT)
 * [Trafford Data Lab](https://github.com/traffordDataLab)
+* [Trafford Council](https://github.com/TraffordCouncil)
 
 ### Charity
 
 * [The Health Foundation](https://github.com/HFAnalyticsLab)
+
+## Scotland
+
+-   [Scottish Government Analysis](https://github.com/ScotGovAnalysis) (Analysis / Statistics / Data Science)
+-   [Scottish Government](https://github.com/scottishgovernment) (Web Development)
+-   [Marine Scotland Science](https://github.com/MarineScotlandScience)
+-   [Transport Scotland](https://github.com/TransportScotland)
+-   [Public Health Scotland](https://github.com/Public-Health-Scotland)
+
+### Scottish Local authorities
+
+-   [Comhairle nan Eilean Siar (Western Isles Council)](https://github.com/cne-siar)
+-   [City of Edinburgh Council](https://github.com/edinburghcouncil)
+-   [Dundee City Council - GIS](https://github.com/DundeeCityCouncil)
+-   [East Lothian Council](https://github.com/ELCwebteam)
+-   [Falkirk Council](https://github.com/Falkirk-Council)
+-   [North Ayrshire Council](https://github.com/north-ayrshire-council)
+-   [North Lanarkshire Council](https://github.com/north-lanarkshire-council)
+-   [South Ayrshire Council](https://github.com/southayrshire)
+-   [West Lothian Council](https://github.com/westlothiancouncil)
+
+### UK Government Departments
+
+-   [The Analysis Function](https://github.com/best-practice-and-impact)
+-   Cabinet Office
+    - [Central](https://github.com/cabinetoffice)
+    - [Analysis & Insight](https://github.com/co-analysis)
+-   Department for Education 
+    - [Analytical Services](https://github.com/dfe-analytical-services)
+    - [R Community](https://github.com/DfE-R-Community) 
+    - [DfE Digital](https://github.com/DFE-Digital)
+    - [Standard](https://github.com/DFEAGILEDEVOPS)
+    - [Digital](https://github.com/DFE-Digital)
+    - [Analytical Services](https://github.com/dfe-analytical-services)
+    - [R Community](https://github.com/DfE-R-Community)
+-   Department for Environment, Food and Rural Affairs (Defra) 
+    - [Data Science Centre of Excellence](https://github.com/Defra-Data-Science-Centre-of-Excellence)
+    - [Central](https://github.com/defra)
+-   [Department for Health and Social Care Data Science](https://github.com/DataS-DHSC)
+-   [Department for International Trade](https://github.com/uktrade)
+-   [Department for Levelling Up, Housing and Communities](https://github.com/communitiesuk)
+-   [Department for Transport](https://github.com/department-for-transport)
+-   [Foreign, Commonwealth and Development Office](https://github.com/DFID)
+-   [Government Digital Service](https://github.com/alphagov)
+-   Ministry of Justice 
+    - [Analysis](https://github.com/moj-analytical-services)
+    - [Central](https://github.com/ministryofjustice)
+-   UKHSA 
+    - [Collaboration](https://github.com/ukhsa-collaboration) 
+    - [Internal](https://github.com/UKHSA-Internal)
+
+#### Office for National Statistics
+
+-   [Data Science Campus](https://github.com/datasciencecampus)
+-   [Government Analysis Function](https://github.com/best-practice-and-impact)
+-   [ONS Big Data](https://github.com/ONSBigData)
+-   [ONS Data Visualisation](https://github.com/ONSvisual)
+-   [ONS Digital](https://github.com/ONSdigital)
+
+### Other
+
+-   [British Geological Survey](https://github.com/BritishGeologicalSurvey)
+-   [Central Statistics Office, Ireland](https://github.com/CSOIreland)
+
+
+:::{.callout-note collapse=false appearance='default' icon=true}
+## Scotland Government Analysis list
+Thanks to the Scotland Government Analysis who have also published a comprehensive list of organisational [GitHubs](https://github.com/ScotGovAnalysis/welcome/blob/main/public-sector-github-orgs.md).
+:::
+
+
+This is not a complete list and links may change name so this is a great opportunity to also contribute to this book.
+Details on how to do that can be found in the chapter [Contributing guidelines and etiquette](#contrib).
+

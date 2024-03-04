@@ -39,7 +39,7 @@ Particularly for packages like [{NHSRdatasets}](https://github.com/nhs-r-communi
 - Add your dataset in the `data` folder, in `.rda` format.  
 The best way to do this is with the {usethis} package with "gzip" compression:  `usethis::use_data(data, compress="gzip")`  
 
-## Contributing guidelines and etiquette
+## Contributing guidelines and etiquette {#contrib}
 
 - Preview your Markdown code to make sure the format is not broken.
 - Material, including commit messages, should be written in clear and simple English.
