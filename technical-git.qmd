@@ -1,0 +1,75 @@
+# Technical guidance - git {#tech-git}
+
+## Installing Git
+
+Download the installer from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+NHS RAP Community of Practice have a [Git Quick Start Guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/quick_start_guides/git_quick_start_guide/) written for the Terminal commands.
+
+## Set up using R
+
+Following course materials developed by [R Forwards](https://forwards.github.io/workshops/package-dev-modules/slides/02-setting-up-system/setting-up-system.html#1) or [NHS-R Community Introduction to Git and GitHub using R](https://intro-git-github.nhsrcommunity.com/) which is also based on R Forwards slides.
+
+## Removing sensitive and patient identifiable information
+
+GitHub recommend using [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) for a quick and efficient way of deleting files, their history from the commit and this can be used across all branches.
+BFG Repo-Cleaner is also good for removing very large files.
+
+It requires [Java](https://www.java.com/en/download/manual.jsp) installed and this may also require administrator rights to do as well as the [BFG Repo-Cleaner `.jar` file](https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar).
+
+Once downloaded put the `bfg-1.14.0.jar` in the folder where the file is that you wish to delete.
+
+:::{.callout-tip collapse=false appearance='default' icon=true}
+## Take a copy! (tip)
+The documentation recommends taking a copy of the repository before making any changes. The code on the BFG Repo-Cleaner is for the Terminal or you can copy local folders.
+:::
+
+Delete the file and commit that so that the latest commit is _clean_ and doesn't contain the undesired data.
+
+Using the Terminal type (on Windows)
+
+```
+java -jar bfg-1.14.0.jar -–delete-files my_sensitive_file.rda
+
+```
+If the file and `bfg-1.14.0.jar` are in a subfolder amend the code for the `bfg-1.14.0.jar` part only:
+
+```
+java -jar example\subfolder\bfg-1.14.0.jar -–delete-files my_sensitive_file.rda
+
+```
+
+If it works then you should get a whole list of information about the deletion.
+However, if it doesn't work then you will get information on the ways you can use the program.
+
+:::{.callout-important collapse=false appearance='default' icon=true}
+## Other file types (important)
+If the sensitive data is part of something like a Quarto report, website or book then a corresponding `html` file will also have to be deleted.
+:::
+
+Once the file history has been removed from the Git history type:
+
+```
+git push --force
+
+```
+:::{.callout-important collapse=false appearance='default' icon=true}
+## Changing history (important)
+Using the BFG Repo-Cleaner changes the Git history on main and may also do this for branches.
+
+Anything that has already been cloned, forked or downloaded from GitHub will be unaffected and you may need to contact GitHub directly to ensure this information is removed from GitHub repositories.
+:::
+
+## Disaster planning
+
+Any publishing of sensitive data will require an incident to be raised within your organisation and may be classed as a breach and this can cause stress and pressure in the people involved.
+In order to react quickly and efficiently it's advisable to practice deleting Git histories that don't involve sensitive information.
+
+Prevention is also better than recovery and many of the teams and organisations listed in the [Statement on Using Tools - git](#github-examples) are working on preventative measures including using a comprehensive `.gitignore`, git hooks and so on.
+[TODO] Contributions on preventing accidental sharing of sensitive data for this book will be welcomed.
+
+## GitHub Personal Access Token
+
+The Personal Access Token (PAT) should never be stored in any file that can be committed and pushed to GitHub.
+However, if this does occur GitHub will contact you to say that your PAT has been revoked and you need to set up a new one.
+This means that your code and history are untouched but you will need to set up a new PAT to reconnect your local Git to GitHub.
