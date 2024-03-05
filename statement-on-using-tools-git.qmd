@@ -26,6 +26,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 * [Public Health Wales](https://github.com/public-health-wales-health-intelligence)
 * [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
+* [National Disease Registration Service](https://github.com/NHSE-NDRS)
 
 ### England Local Government
 
