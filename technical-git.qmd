@@ -8,7 +8,8 @@ NHS RAP Community of Practice have a [Git Quick Start Guide](https://nhsdigital.
 
 ## Set up using R
 
-Following course materials developed by [R Forwards](https://forwards.github.io/workshops/package-dev-modules/slides/02-setting-up-system/setting-up-system.html#1) or [NHS-R Community Introduction to Git and GitHub using R](https://intro-git-github.nhsrcommunity.com/) which is also based on R Forwards slides. Another excellent resource is Jenny Bryan's [Happy Git and GitHub for the useR](https://happygitwithr.com/).
+Following course materials developed by [R Forwards](https://forwards.github.io/workshops/package-dev-modules/slides/02-setting-up-system/setting-up-system.html#1) or [NHS-R Community Introduction to Git and GitHub using R](https://intro-git-github.nhsrcommunity.com/) which is also based on R Forwards slides.
+Another excellent resource is Jenny Bryan's [Happy Git and GitHub for the useR](https://happygitwithr.com/).
 
 ## Removing sensitive and patient identifiable information
 
