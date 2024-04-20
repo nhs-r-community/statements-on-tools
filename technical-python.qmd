@@ -8,3 +8,9 @@ Installing Python will require admin rights for the person installing it.
 
 To check that Python has been installed (on Windows) open the Command Prompt (accessed via the Windows button on the keyboard on a Windows computer) and type `py --version`.
 
+### Installing the Python extension to VS Code
+
+The following is a step by step guide from Microsoft: <https://learn.microsoft.com/en-gb/training/modules/python-install-vscode/5-exercise-install-python-extension?pivots=windows>.
+
+The next page in the learning module is a good introduction to creating a folder and a python file which can be run <https://learn.microsoft.com/en-gb/training/modules/python-install-vscode/6-exercise-first-application?pivots=windows>
+
