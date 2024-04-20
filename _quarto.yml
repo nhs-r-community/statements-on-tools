@@ -25,6 +25,7 @@ book:
     - technical-r.qmd
     - technical-python.qmd
     - technical-git.qmd
+    - technical-quarto.qmd
     - contribution.qmd
     - glossary.qmd
   page-footer:
