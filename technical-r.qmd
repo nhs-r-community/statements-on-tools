@@ -1,6 +1,6 @@
 # Technical guidance - R {#tech-r}
 
-## What programs are required
+## What programs are required for a computer
 
 To write R code you will need the [R program](https://cran.r-project.org/bin/windows/base/), an IDE (Integrated Development Environment) like [RStudio](https://posit.co/download/rstudio-desktop/) or [VSCode](https://code.visualstudio.com/) and (for Windows) the [RTools](https://cran.r-project.org/bin/windows/Rtools/) program.
 
@@ -9,6 +9,8 @@ Both RStudio and VS Code are more visually friendly graphical user interfaces (G
 
 RTools is used by Windows to build some packages and, although there are sometimes warnings when this isn't installed, it is not always required.
 As people in the NHS and other public sector organisations will have to contact IT teams for access to software it is advisable to ask for RTools just in case this is an issue.
+
+Installing these programs will require admin rights for the person installing them.
 
 ## Getting R 
 
@@ -51,31 +53,11 @@ This won't happen if only RStudio is updated.
 The other approach to updating packages is in a controlled way so as to not break code.
 The issue with this is that latest functionality is lost to the analysis and may never be introduced, in case something breaks.
 
-To assist with this there are pipeline packages like [{renv}](https://rstudio.github.io/renv/articles/renv.html) which takes a snapshot of the packages as they are used in code and which can be retained within a project environment so that changes outside don't affect the analysis:
+To assist with this there are packages like [{renv}](https://rstudio.github.io/renv/articles/renv.html) which takes a snapshot of the packages as they are used in code and which can be retained within a project environment so that changes outside don't affect the analysis:
 
 > it records the version of R + R packages being used in a project, and provides tools for reinstalling the declared versions of those packages in a project
 
 These snapshots can also be shared with other members of the team who are working on the same project.
-
-## Quarto
-
-Quarto is the next generation of reporting from RMarkdown that allows for code and text to be used together to produce a wide variety of outputs like word, pdf, PowerPoint, slides, books and websites.
-Quarto also allows for more flexibility in use by people who use Python and prefer to use VS Code (or other IDEs).
-
-The latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) https://quarto.org/docs/get-started/.
-
-::: aside
-The Quarto CLI download is a `win.msi` file so may not require authorisation from IT teams to download and install.
-:::
-
-The package {quarto} contains functions that can be used in R to run some of the command line commands and isn't necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio.
-For example, to preview this book, in the command line the code is:
-
-`quarto render`
-
-but in R using {quarto} it is:
-
-`quarto::quarto_render()`
 
 ## Updating R from a package
 

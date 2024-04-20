@@ -1,0 +1,23 @@
+# Technical guidance - Quarto {#tech-quarto}
+
+## Quarto
+
+Quarto is the next generation of reporting from R (specifically RMarkdown) that allows for code and text to be used together to produce a wide variety of outputs like word, pdf, PowerPoint, slides, books and websites.
+Quarto also allows for more flexibility in use by people who use Python and prefer to use VS Code (or other IDEs).
+
+## Installing for RStudio
+
+The latest version of Quarto is built into the RStudio IDE itself and to update it is necessary to use download the Quarto CLI (command line interface) <https://quarto.org/docs/get-started/>.
+
+::: aside
+The Quarto CLI download is a `win.msi` file so may not require authorisation from IT teams to download and install.
+:::
+
+The package {quarto} contains functions that can be used in R to run some of the command line commands and isn't necessary to have if you are happy to use the command line or Terminal as it is known as in RStudio.
+For example, to preview this book, in the command line the code is:
+
+`quarto render`
+
+but in R using {quarto} it is:
+
+`quarto::quarto_render()`

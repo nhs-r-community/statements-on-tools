@@ -1,5 +1,10 @@
 # Technical guidance - Python {#tech-python}
 
-## What programs are required
+## What programs are required for a computer
 
-Content to be added, committing this to see if the book renders in GitHub Actions.
+To write Python code you will need the [Python program](https://www.python.org/downloads/), an IDE (Integrated Development Environment) like [VSCode](https://code.visualstudio.com/) and Python is supported within [RStudio](https://posit.co/download/rstudio-desktop/) (including in Quarto scripts).
+
+Installing Python will require admin rights for the person installing it.
+
+To check that Python has been installed (on Windows) open the Command Prompt (accessed via the Windows button on the keyboard on a Windows computer) and type `py --version`.
+
