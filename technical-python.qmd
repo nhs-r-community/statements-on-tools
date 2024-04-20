@@ -8,3 +8,19 @@ Installing Python will require admin rights for the person installing it.
 
 To check that Python has been installed (on Windows) open the Command Prompt (accessed via the Windows button on the keyboard on a Windows computer) and type `py --version`.
 
+### Installing the Python extension to VS Code
+
+The following is a step by step guide from Microsoft: <https://learn.microsoft.com/en-gb/training/modules/python-install-vscode/5-exercise-install-python-extension?pivots=windows>.
+
+The next page in the learning module is a good introduction to creating a folder and a python file which can be run <https://learn.microsoft.com/en-gb/training/modules/python-install-vscode/6-exercise-first-application?pivots=windows>
+
+:::{.callout-tip collapse=false appearance='default' icon=true}
+## Command line code
+The default location for the folder is in `C:/Users/my.name` so a few commands can be useful for the Terminal:
+- `cd` means change directory
+- `cd ..` moves the folder up one level
+- `cd folder-name` moves to a sub folder where there are no spaces in the name
+- `cd 'folder name'` moves to a sub folder where there are spaces in the name
+- `dir` means directory and will show all the folders and files
+:::
+
