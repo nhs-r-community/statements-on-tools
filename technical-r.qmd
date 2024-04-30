@@ -1,5 +1,12 @@
 # Technical guidance - R {#tech-r}
 
+:::{.callout-important collapse=false appearance='default' icon=true}
+## R vulnerability
+Published 29 April 2024 related to versions of R prior to 4.4.0  <https://nvd.nist.gov/vuln/detail/CVE-2024-27322>. 
+
+Remdial action suggested is to upgrade to 4.4.0 and only open rds files from trusted sources.
+:::
+
 ## What programs are required for a computer
 
 To write R code you will need the [R program](https://cran.r-project.org/bin/windows/base/), an IDE (Integrated Development Environment) like [RStudio](https://posit.co/download/rstudio-desktop/) or [VSCode](https://code.visualstudio.com/) and (for Windows) the [RTools](https://cran.r-project.org/bin/windows/Rtools/) program.
