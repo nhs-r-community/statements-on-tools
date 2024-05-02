@@ -15,7 +15,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 
 ### NHS
 
-* [Birmingham and Solihull ICS](https://github.com/Birmingham-and-Solihull-ICS)    
+* [Birmingham and Solihull ICS](https://github.com/Birmingham-and-Solihull-ICS)  
 * [Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)  
 * [Midlands and Lancashire Commissioning Support Unit](https://github.com/MLCSU)  
 * [National Disease Registration Service](https://github.com/NHSE-NDRS)
@@ -27,7 +27,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 * [Public Health Wales](https://github.com/public-health-wales-health-intelligence)
 * [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
-
+* [NHS England Data Science](https://nhsengland.github.io/datascience/)  
 
 ### England Local Government
 
@@ -46,6 +46,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 -   [Marine Scotland Science](https://github.com/MarineScotlandScience)
 -   [Transport Scotland](https://github.com/TransportScotland)
 -   [Public Health Scotland](https://github.com/Public-Health-Scotland)
+-   [The Data Lab Scotland ](https://github.com/TheDataLabScotland) - includes the repository for [openSIMD](https://github.com/TheDataLabScotland/openSIMD)
 
 ### Scottish Local authorities
 
@@ -59,7 +60,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 -   [South Ayrshire Council](https://github.com/southayrshire)
 -   [West Lothian Council](https://github.com/westlothiancouncil)
 
-### UK Government Departments
+## UK Government Departments
 
 -   [The Analysis Function](https://github.com/best-practice-and-impact)
 -   Cabinet Office
