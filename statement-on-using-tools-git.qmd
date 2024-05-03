@@ -13,7 +13,7 @@ Much more is written about Git in the [NHS RAP Community of Practice](https://nh
 
 These examples of organisations that are using GitHub serve as a reference to the increasing public sector and Government organisations and teams that publish code:
 
-### NHS
+## NHS
 
 * [Birmingham and Solihull ICS](https://github.com/Birmingham-and-Solihull-ICS)  
 * [Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)  
@@ -29,36 +29,13 @@ These examples of organisations that are using GitHub serve as a reference to th
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
 * [NHS England Data Science](https://nhsengland.github.io/datascience/)  
 
-### England Local Government
+## Office for National Statistics
 
-* [London Borough of Hackney](https://github.com/LBHackney-IT)
-* [Trafford Data Lab](https://github.com/traffordDataLab)
-* [Trafford Council](https://github.com/TraffordCouncil)
-
-### Charity
-
-* [The Health Foundation](https://github.com/HFAnalyticsLab)
-
-## Scotland
-
--   [Scottish Government Analysis](https://github.com/ScotGovAnalysis) (Analysis / Statistics / Data Science)
--   [Scottish Government](https://github.com/scottishgovernment) (Web Development)
--   [Marine Scotland Science](https://github.com/MarineScotlandScience)
--   [Transport Scotland](https://github.com/TransportScotland)
--   [Public Health Scotland](https://github.com/Public-Health-Scotland)
--   [The Data Lab Scotland ](https://github.com/TheDataLabScotland) - includes the repository for [openSIMD](https://github.com/TheDataLabScotland/openSIMD)
-
-### Scottish Local authorities
-
--   [Comhairle nan Eilean Siar (Western Isles Council)](https://github.com/cne-siar)
--   [City of Edinburgh Council](https://github.com/edinburghcouncil)
--   [Dundee City Council - GIS](https://github.com/DundeeCityCouncil)
--   [East Lothian Council](https://github.com/ELCwebteam)
--   [Falkirk Council](https://github.com/Falkirk-Council)
--   [North Ayrshire Council](https://github.com/north-ayrshire-council)
--   [North Lanarkshire Council](https://github.com/north-lanarkshire-council)
--   [South Ayrshire Council](https://github.com/southayrshire)
--   [West Lothian Council](https://github.com/westlothiancouncil)
+-   [Data Science Campus](https://github.com/datasciencecampus)
+-   [Government Analysis Function](https://github.com/best-practice-and-impact)
+-   [ONS Big Data](https://github.com/ONSBigData)
+-   [ONS Data Visualisation](https://github.com/ONSvisual)
+-   [ONS Digital](https://github.com/ONSdigital)
 
 ## UK Government Departments
 
@@ -90,26 +67,47 @@ These examples of organisations that are using GitHub serve as a reference to th
     - [Collaboration](https://github.com/ukhsa-collaboration) 
     - [Internal](https://github.com/UKHSA-Internal)
 
-#### Office for National Statistics
+## Scotland
 
--   [Data Science Campus](https://github.com/datasciencecampus)
--   [Government Analysis Function](https://github.com/best-practice-and-impact)
--   [ONS Big Data](https://github.com/ONSBigData)
--   [ONS Data Visualisation](https://github.com/ONSvisual)
--   [ONS Digital](https://github.com/ONSdigital)
+:::{.callout-note collapse=false appearance='default' icon=true}
+### Scotland Government Analysis list
+Thanks to the Scotland Government Analysis who have also published a comprehensive list of organisational [GitHubs](https://github.com/ScotGovAnalysis/welcome/blob/main/public-sector-github-orgs.md).
+:::
 
-### Other
+-   [Scottish Government Analysis](https://github.com/ScotGovAnalysis) (Analysis / Statistics / Data Science)
+-   [Scottish Government](https://github.com/scottishgovernment) (Web Development)
+-   [Marine Scotland Science](https://github.com/MarineScotlandScience)
+-   [Transport Scotland](https://github.com/TransportScotland)
+-   [Public Health Scotland](https://github.com/Public-Health-Scotland)
+-   [The Data Lab Scotland ](https://github.com/TheDataLabScotland) - includes the repository for [openSIMD](https://github.com/TheDataLabScotland/openSIMD)
+
+### Local authorities
+
+-   [Comhairle nan Eilean Siar (Western Isles Council)](https://github.com/cne-siar)
+-   [City of Edinburgh Council](https://github.com/edinburghcouncil)
+-   [Dundee City Council - GIS](https://github.com/DundeeCityCouncil)
+-   [East Lothian Council](https://github.com/ELCwebteam)
+-   [Falkirk Council](https://github.com/Falkirk-Council)
+-   [North Ayrshire Council](https://github.com/north-ayrshire-council)
+-   [North Lanarkshire Council](https://github.com/north-lanarkshire-council)
+-   [South Ayrshire Council](https://github.com/southayrshire)
+-   [West Lothian Council](https://github.com/westlothiancouncil)
+
+## England 
+###Local Government
+
+* [London Borough of Hackney](https://github.com/LBHackney-IT)
+* [Trafford Data Lab](https://github.com/traffordDataLab)
+* [Trafford Council](https://github.com/TraffordCouncil)
+
+### Charity
+
+* [The Health Foundation](https://github.com/HFAnalyticsLab)
+
+## Other
 
 -   [British Geological Survey](https://github.com/BritishGeologicalSurvey)
 -   [Central Statistics Office, Ireland](https://github.com/CSOIreland)
 
-
-:::{.callout-note collapse=false appearance='default' icon=true}
-## Scotland Government Analysis list
-Thanks to the Scotland Government Analysis who have also published a comprehensive list of organisational [GitHubs](https://github.com/ScotGovAnalysis/welcome/blob/main/public-sector-github-orgs.md).
-:::
-
-
 This is not a complete list and links may change name so this is a great opportunity to also contribute to this book.
 Details on how to do that can be found in the chapter [Contributing guidelines and etiquette](#contrib).
-
