@@ -83,18 +83,22 @@ Thanks to the Scotland Government Analysis who have also published a comprehensi
 
 ### Local authorities
 
--   [Comhairle nan Eilean Siar (Western Isles Council)](https://github.com/cne-siar)
--   [City of Edinburgh Council](https://github.com/edinburghcouncil)
--   [Dundee City Council - GIS](https://github.com/DundeeCityCouncil)
--   [East Lothian Council](https://github.com/ELCwebteam)
--   [Falkirk Council](https://github.com/Falkirk-Council)
--   [North Ayrshire Council](https://github.com/north-ayrshire-council)
--   [North Lanarkshire Council](https://github.com/north-lanarkshire-council)
--   [South Ayrshire Council](https://github.com/southayrshire)
+-   [Comhairle nan Eilean Siar (Western Isles Council)](https://github.com/cne-siar)  
+-   [City of Edinburgh Council](https://github.com/edinburghcouncil)  
+-   [Dundee City Council - GIS](https://github.com/DundeeCityCouncil)  
+-   [East Lothian Council](https://github.com/ELCwebteam)  
+-   [Falkirk Council](https://github.com/Falkirk-Council)  
+-   [North Ayrshire Council](https://github.com/north-ayrshire-council)  
+-   [North Lanarkshire Council](https://github.com/north-lanarkshire-council)  
+-   [South Ayrshire Council](https://github.com/southayrshire)  
 -   [West Lothian Council](https://github.com/westlothiancouncil)
 
+## Wales
+-   [The Welsh Government Data Science Unit](https://github.com/wgdsu)  
+
 ## England 
-###Local Government
+
+### Local Government
 
 * [London Borough of Hackney](https://github.com/LBHackney-IT)
 * [Trafford Data Lab](https://github.com/traffordDataLab)
