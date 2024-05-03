@@ -102,6 +102,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 
 -   [British Geological Survey](https://github.com/BritishGeologicalSurvey)
 -   [Central Statistics Office, Ireland](https://github.com/CSOIreland)
+-   [The Welsh Government Data Science Unit](https://github.com/wgdsu)
 
 
 :::{.callout-note collapse=false appearance='default' icon=true}
