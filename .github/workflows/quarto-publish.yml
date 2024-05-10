@@ -28,10 +28,33 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/dukestatsci/r_gh_actions:latest
+      image: ghcr.io/nhs-r-community/r_gh_actions:latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      
+      - uses: actions/cache@v4
+        with:
+          key: packages
+          path: /usr/local/lib/R/site-library
+      
+      - name: Install Missing Packages
+        run: |
+          missing = checklist::install_missing_pkgs(dir = "./", glob = "*.qmd")
+        shell: Rscript {0}
+        
+      - name: Install NHSRpostcodetools
+        run: |
+          remotes::install_github("nhs-r-community/NHSRpostcodetools")
+        shell: Rscript {0}
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install NHSRpopulation
+        run: |
+          remotes::install_github("nhs-r-community/NHSRpopulation")
+        shell: Rscript {0}
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build site
         run: |
