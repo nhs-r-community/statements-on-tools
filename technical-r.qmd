@@ -4,7 +4,8 @@
 ## R vulnerability
 Published 29 April 2024 related to versions of R prior to 4.4.0  <https://nvd.nist.gov/vuln/detail/CVE-2024-27322>. 
 
-Remdial action suggested is to upgrade to 4.4.0 and only open rds files from trusted sources.
+Remedial action suggested is to upgrade to 4.4.0 and only open rds files from trusted sources.
+And a reminder that when R is updated packages will need to be reinstalled.
 :::
 
 ## What programs are required for a computer
