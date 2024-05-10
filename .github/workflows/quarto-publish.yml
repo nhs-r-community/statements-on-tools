@@ -42,20 +42,6 @@ jobs:
           missing = checklist::install_missing_pkgs(dir = "./", glob = "*.qmd")
         shell: Rscript {0}
         
-      - name: Install NHSRpostcodetools
-        run: |
-          remotes::install_github("nhs-r-community/NHSRpostcodetools")
-        shell: Rscript {0}
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install NHSRpopulation
-        run: |
-          remotes::install_github("nhs-r-community/NHSRpopulation")
-        shell: Rscript {0}
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Build site
         run: |
           quarto render
