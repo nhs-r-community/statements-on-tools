@@ -1,53 +1,59 @@
 # Contributing to GitHub repositories
 
-The NHS-R Community welcomes contributions in the form of bug fixes and improvements.
+The NHS-R Community welcomes contributions in the form of bug fixes and improvements through issues and code contributions.
 
 ## Contributing workflow
 
-If you're new to Github and/or Markdown, [Github's own contributor's guide](https://github.com/github/docs/blob/main/CONTRIBUTING.md) provides a good overview of these topics.
+If you're new to Github [Github's own contributor's guide](https://github.com/github/docs/blob/main/.github/CONTRIBUTING.md) provides a good overview of these topics.
 
-To contribute:
+Start with:
 
-- Review the [issue](#using-issues) list, raise an issue if required
-- Fork this repository
-- Make changes or add new scripts
-- Commit and push to your own repository
-- Create a new [pull request](#pull-requests-and-merging) detailing your additions
-- Wait for pull request to be reviewed, and merged (not everyone will have permission to merge pull requests)
+- Review the [issue](#using-issues) list (both open and closed) and raise an issue if this hasn't been raised before or contribute to an existing conversation via the issue.
+
+If you want to continue and make changes to the code then:
+
+- Fork the repository
+
+::: aside
+This can be via the GitHub website or [{usethis} package](https://intro-git-github.nhsrcommunity.com/session-fork-clone.html#/title-slide)
+:::
+
+- Make changes
+- Commit the change(s) and push to your own repository
+- Create a new [pull request](#pull-requests-and-merging) 
+- You can [link one or many issues the pull request resolves](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) and these will be closed automatically when merged
+
+::: aside
+This can be via the GitHub website or use the [{usethis} package](https://intro-git-github.nhsrcommunity.com/session-pull-requests.html#/pushing-to-the-remote-github)
+:::
+
+- Wait for pull request to be reviewed and merged
 - Celebrate your first step into the open source world and contribute more!
-
-## Using issues
-
-If you spot something that needs to be changed, or would like to suggest some new content, please raise an issue.
-
-Before raising a new issue, have a look through the existing ones in case it's already been raised.
-
-## Pull requests and merging
-
-- If you have a change (or a new page) to raise, please create an issue first as there may be someone thinking of contributing something similar.
-
-- The main branch will be restricted to just those with access to the repository and they are asked to not commit directly as good practice.
-
-- For all changes you will need to create a fork, and then a pull request (click compare across forks and select your version).
-
-Please [reference the issue the pull request resolves](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue), so it will be closed automatically.
 
 ## Contributing any datasets
 
 Particularly for packages like [{NHSRdatasets}](https://github.com/nhs-r-community/NHSRdatasets):
 
 - Add your dataset in the `data` folder, in `.rda` format.  
-The best way to do this is with the {usethis} package with "gzip" compression:  `usethis::use_data(data, compress="gzip")`  
+The best way to do this is with the {usethis} package with "gzip" compression:  `usethis::use_data(data, compress ="gzip")`  
 
 ## Contributing guidelines and etiquette {#contrib}
 
-- Preview your Markdown code to make sure the format is not broken.
-- Material, including commit messages, should be written in clear and simple English.
-- Nothing included should be confidential, private or disclose any personal or sensitive data (and that is also necessary for commits as well as code).
-- Follow the code of conduct in the repository at all times.
-- For further guidance refer to the NHS-R Way [Style Guides](https://nhsrway.nhsrcommunity.com/style-guides.html).
+- Previewing any code written locally can help test everything works
+- Follow the code of conduct in the repository at all times
+- For style guides for text and code refer to the NHS-R Way [Style Guides](https://nhsrway.nhsrcommunity.com/style-guides.html)
 
-When contributing any additions, the contributor certifies that they are the author, or has cited the author and is authorised to reuse/reference the material
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## Sensitive data (warning)
+Never commit or submit anything that is confidential, private or disclose any personal or sensitive data in text or code.
+
+See the chapter [technical guidance - git](#tech-git) on how to avoid and remove sensitive data and history when using git.
+
+For information on how NHS-R Community will respond to any submissions with this data can be found in the [NHS-R Way](https://nhsrway.nhsrcommunity.com/code-of-conduct.html#notice-and-takedown-policy)
+:::
+
+When contributing you, as the contributor, certify that you are the original author or have cited the original author(s), are authorised to resuse/reference the material and, if necessary, notified the author(s).
+Any content that is found to not be submitted by a rights holder will be dealt with according to the NHS-R Community [Notice and Takedown Policy](https://nhsrway.nhsrcommunity.com/code-of-conduct.html#notice-and-takedown-policy).
 
 ## Code of Conduct
 
@@ -60,4 +66,4 @@ usethis::use_code_of_conduct(contact = "nhs.rcommunity@nhs.net")
 
 ## Acknowledgements
 
-This contributing guide is adapted from [NHS Digital's Contributor's Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/.github/CONTRIBUTING.md).
+This contributing guide is adapted from [NHS Digital's Contributor's Guide](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/CONTRIBUTING.md).
