@@ -74,3 +74,14 @@ Prevention is also better than recovery and many of the teams and organisations 
 The Personal Access Token (PAT) should never be stored in any file that can be committed and pushed to GitHub.
 However, if this does occur GitHub will contact you to say that your PAT has been revoked and you need to set up a new one.
 This means that your code and history are untouched but you will need to set up a new PAT to reconnect your local Git to GitHub.
+
+# GitHub
+
+## Personal Access Tokens
+
+GitHub has two main security ways to connect: [SSH and HTTPS](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#https) and many people working on a public sector network may find that SSH is blocked through a firewall or proxy.
+NHS-R Community's course [Introduction to Git and GitHub using R](https://intro-git-github.nhsrcommunity.com/session-setup.html#/title-slide) has instructions on how to set up git and connecting to GitHub using the {usethis} package which translates the git commands so these can be used from the R Console rather than the Terminal.
+
+## Using more than one computer?
+
+If you are using more than one computer to connect to GitHub the best way to ensure security is to set up two separate PATs.
