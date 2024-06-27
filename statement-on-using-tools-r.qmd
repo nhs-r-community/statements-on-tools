@@ -43,7 +43,7 @@ Packages make R better: easier to use and learn, more flexible, and with richer 
 To illustrate, we can show the code from two related NHS-R packages: [NHSRplotthedots](https://github.com/nhs-r-community/NHSRplotthedots) ([CRAN](https://cran.r-project.org/web/packages/NHSRplotthedots/index.html)) and [NHSRdatasets](https://github.com/nhs-r-community/NHSRdatasets) ([CRAN](https://cran.r-project.org/package=NHSRdatasets))
 
 | Component     | Purpose                                                | Example                                                                                                                                                                                        |
-|-------------|-------------|----------------------------------------------|
+|---------------|---------------|------------------------------------------|
 | Code          | Allows the user to use functions in their own code     | [![Screenshot of code for the ptd_spc() function used to create SPC charts from the {NHSplotthedots} package](https://i.imgur.com/LflSDU2.png){height="100"}](https://i.imgur.com/LflSDU2.png) |
 | Data          | Demonstrates the function(s), training new users       | [![Screenshot of NHSR dataset from {NHSRplotthedots}](https://i.imgur.com/0QUnwpr.png){height="100"}](https://i.imgur.com/0QUnwpr.png)                                                         |
 | Documentation | User guides, package vignettes and other documentation | [![Documentation for the ptd_spc() function from {NHSRplotthedots}](https://i.imgur.com/QzqF3Cq.png){height="100"}](https://i.imgur.com/QzqF3Cq.png)                                           |
@@ -99,3 +99,7 @@ As we've discussed above, the philosophy of using packages in R is rather differ
 -   How can free software be trustworthy? Isn't there going to be a catch? And who is responsible for ensuring the quality and safety of this software? Free open-source software (FOSS) is now widely used across sectors. Useful comments in FAQ section of [HSMA](https://sites.google.com/nihr.ac.uk/hsma/apply-to-become-an-hsma?authuser=0) site:
 
 > It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.
+
+## Other links
+
+[NHS England Regional Managers of Analytical teams presentation](https://github.com/aporter121/r-stuff/blob/main/Thoughts%20on%20R%20for%20regional%20leads.pptx)
