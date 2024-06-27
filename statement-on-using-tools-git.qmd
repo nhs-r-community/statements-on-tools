@@ -54,6 +54,7 @@ These examples of organisations that are using GitHub serve as a reference to th
 -   Department for Environment, Food and Rural Affairs (Defra) 
     - [Data Science Centre of Excellence](https://github.com/Defra-Data-Science-Centre-of-Excellence)
     - [Central](https://github.com/defra)
+    - [Defra Design Team](https://github.com/defra-design)
 -   [Department for Health and Social Care Data Science](https://github.com/DataS-DHSC)
 -   [Department for International Trade](https://github.com/uktrade)
 -   [Department for Levelling Up, Housing and Communities](https://github.com/communitiesuk)
