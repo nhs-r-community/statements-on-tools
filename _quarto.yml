@@ -20,7 +20,6 @@ book:
     - statement-on-using-tools-python.qmd
     - statement-on-using-tools-git.qmd
     - statement-on-using-tools-shiny.qmd
-    - nhsr-vision.qmd
   appendices: 
     - technical-r.qmd
     - technical-python.qmd
