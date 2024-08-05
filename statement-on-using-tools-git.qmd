@@ -17,17 +17,22 @@ These examples of organisations that are using GitHub serve as a reference to th
 
 * [Birmingham and Solihull ICS](https://github.com/Birmingham-and-Solihull-ICS)  
 * [Bristol North Somerset and South Gloucestershire ICB](https://github.com/nhs-bnssg-analytics)  
+* [Great Ormond Street Hospital](https://github.com/gosh-dre)  
+* [Great Ormons Street Hospital DRIVE](https://www.goshdrive.com/)  
 * [Midlands and Lancashire Commissioning Support Unit](https://github.com/MLCSU)  
-* [National Disease Registration Service](https://github.com/NHSE-NDRS)
+* [National Disease Registration Service](https://github.com/NHSE-NDRS)  
+* [Nottingham University Hospitals NHS Trust](https://github.com/nottmhospitals)
+  - Also have an internal GitLab server with over 200 repositories
 * [Nottinghamshire Healthcare NHS Foundation  Trust](https://github.com/CDU-data-science-team/)  
 * [NHS Business Services Authority](https://github.com/nhsbsa-data-analytics)
 * [NHS England](https://github.com/nhsengland)  
 * [NHS England - Open Health Statistics](https://nhsengland.github.io/open-health-statistics/)
+* [NHS England Data Science](https://nhsengland.github.io/datascience/)  
 * [Public Health Scotland](https://github.com/Public-Health-Scotland)  
 * [Public Health Wales](https://github.com/public-health-wales-health-intelligence)
 * [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) - NHS England but under NHS Digital's organisation  
+* [St Bartholomew's Hospital - Barts Health NHS Trust](https://bartslifesciences.org/)  
 * [The Strategy Unit](https://github.com/The-Strategy-Unit)  
-* [NHS England Data Science](https://nhsengland.github.io/datascience/)  
 
 ## Office for National Statistics
 
