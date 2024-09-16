@@ -47,6 +47,30 @@ We will publish a digital playbook on how to open source your code for health an
 
 ## Specific challenges
 
+### Not feeling psychologically safe
+
+This section started off with addressing the technical and information governance issues around sharing code in the open but the greatest challenge, regardless if these are resolved, is that of feeling safe to share.
+
+Quite often people may think or say:
+
+- my code is not good enough
+- I'll get into trouble for sharing code
+- I'll make a mistake and accidentally share something I shouldn't
+- no one will be able to run the code as they don't have the same data
+
+Jonny Pearson gave a lightning talk on this subject at the [NHS-R Community Conference 2022](https://www.youtube.com/watch?v=RfiuBGD5IeU&t=5757s).
+
+There is no magic solution to this.
+It takes time, support and practice to feel "comfortable" with sharing in the open but it is achievable
+
+NHS-R Community has grown into a learning community where it's possible to connect with others who have been through the stages required to share, have made the mistakes and have learned the solutions.
+It's also a place to try out the technical skills using existing projects which don't have any connection to sensitive data as there is no better way to learn than trying (and making mistakes with no reputational risk to yourself or your team!).
+Our GitHub repositories are open to contribute and are full of mistakes to correct or just feel ok with adding to.
+Ultimately, NHS-R Community a space to challenge those common anxieties.
+
+Another resource, which was built for code reviews which can also help tremendously with sharing in the open, is the [Code Review Anxiety Workbook](https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1) which details what anxiety looks like and how to challenge it.
+The anxiety for code reviews or sharing in the open isn't different from any other situation that can cause anxiety but what this may help with is challenging our expectation that experienced developers never experience it (not true) or just not realising that this is a particular _thing_ and we are not alone in these feelings.
+
 ### Opening code without exposing data/'secrets'
 
 In coding terms exposing [secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#about-encrypted-secrets) often mean sharing passwords or keys but for the data analysis that occurs in the NHS and other public sector organisations, this will also mean the sharing of personal, clinical or other sensitive data.
