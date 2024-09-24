@@ -21,3 +21,8 @@ For example, to preview this book, in the command line the code is:
 but in R using {quarto} it is:
 
 `quarto::quarto_render()`
+
+:::{.callout-important collapse=false appearance='default' icon=true}
+## R package and CLI (important)
+Whilst it's possible to use the Quarto CLI without the {quarto} package, the {quarto} package won't run anything without the CLI as the functions are translating the code that the CLI uses.
+:::
