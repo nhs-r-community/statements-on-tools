@@ -24,3 +24,8 @@ The default location for the folder is in `C:/Users/my.name` so a few commands c
 - `dir` means directory and will show all the folders and files
 :::
 
+## Useful resources
+
+The Digital Technology Assessment Criteria for Health and Social Care [(DTAC) for JupyterHub](https://www.linkedin.com/feed/update/urn:li:activity:7247179393335193602/?originTrackingId=ktTpD0p2Tz6vRt7H6GTogw%3D%3D) from [South West Analytics & Infrastructure in Healthcare](https://www.linkedin.com/company/swaih/about/) shared on LinkedIn.
+
+The Digital Technology Assessment Criteria for Health and Social Care [(DTAC) for Python](https://www.linkedin.com/feed/update/urn:li:activity:7247179090808438784/?originTrackingId=T%2B3IdsxgS0isgVbrQckHtg%3D%3D) from [South West Analytics & Infrastructure in Healthcare](https://www.linkedin.com/company/swaih/about/) shared on LinkedIn.

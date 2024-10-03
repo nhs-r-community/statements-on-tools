@@ -28,12 +28,12 @@ Whilst static charts show HTML code as an image, more interactive charts like {p
 
 Even with pdfs there are tools like the R package [{scrapR}](https://github.com/adamkucharski/scrapR) written to extract point data where it is not shared so any small, suppressible data should therefore never be shared, even in a chart.
 
-### Code Tools
+### Code Tools {#code-tools}
 
 A useful function of Quarto and R Markdown is the [inclusion of code](https://quarto.org/docs/output-formats/html-code.html#code-tools) through the use of the yaml (`code-fold`) but if the code includes any reference to small numbers of sensitive data directly, for example:
 
 ```
-filter(!NHSNumber == '4564564564')
+filter(NHSNumber == '4564564564')
 ```
 this would be a breach of sensitive information. 
 
