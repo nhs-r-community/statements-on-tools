@@ -1,0 +1,51 @@
+# Statement on using artificial intelligence
+
+The use of artificial intelligence is growing in every day use so this chapter will particularly highlight some points to consider when using with other data science tools like R, Python or git.
+
+LLMs (Large Language Models) are particularly growing in use through ChatGPT and Copilot with generating code and can be linked into Python or R through particular packages.
+Uses vary from:
+
+- producing code
+- generating comments
+- explaining code
+
+and access to LLMs varies across organisations.
+
+## Things to consider
+
+### Breach of sensitive information
+
+LLMs are proprietary and closed systems and anything entered into them will be seen by the model, retained and reused.
+
+:::{.callout-important collapse=false appearance='default' icon=true}
+## Sharing publicly or to a model (important)
+If you can share your code with an LLM you can publish it on GitHub!
+
+An LLM will reuse your code and ideas because that's how it generates its output.
+:::
+
+It is a breach if code is given that includes sensitive information, something highlighted in the chapter about sharing code in [Quarto](#code-tools), where filters include something like:
+
+```
+filter(NHSNumber == '4564564564')
+```
+
+This is bad practice but is something that is often done to explore data by analysts as they investigate it.
+It is a perfectly legitimate use for code and becomes a notifiable incident if it is shared with an LLM as they learn from the questions they are given as much as from data sources like GitHub.
+
+### Code may be out of date
+
+Things move fast in R and Python and packages are created and updated at a rapid rate.
+LLMs like ChatGPT have release dates and you might find that solutions it gives are for out of date packages. 
+Many R packages that are superseded are still available so code will work, like httr which is now httr2 or qicharts which is now qicharts2, so it's always good to review the code output and see if things have changed.
+The difficulty is that you won't be able to get updated information from the LLM even if you are aware of a more up to date package.
+
+### Other issues
+
+These are purely technical and analytical areas for consideration but there is a whole host of other considerations to make when using LLMs like ChatGPT including environmental, bias, how it hallucinates (when information is missing it will fill this in) and how companies that own these models have been accused of labour exploitation.
+
+These are all serious issues that are effectively hidden to the user and as it is not necessary to declare its use we don't really know who is using these LLMs or what for.
+
+## Useful resources
+
+[Approval and use of Artificial Intelligence Policy](https://www.linkedin.com/posts/andy-mayne_approval-use-of-artificial-intelligence-activity-7246442745060278272-ZOjB?utm_source=share&utm_medium=member_desktop) from NHS Somerset NHS Foundation Trust shared on LinkedIn.

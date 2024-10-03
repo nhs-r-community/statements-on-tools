@@ -21,6 +21,7 @@ book:
     - statement-on-using-tools-git.qmd
     - statement-on-using-tools-shiny.qmd
     - statement-on-using-tools-quarto.qmd
+    - statement-on-artificial-intelligence.qmd
   appendices: 
     - technical-r.qmd
     - technical-python.qmd
