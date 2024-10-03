@@ -33,7 +33,7 @@ Even with pdfs there are tools like the R package [{scrapR}](https://github.com/
 A useful function of Quarto and R Markdown is the [inclusion of code](https://quarto.org/docs/output-formats/html-code.html#code-tools) through the use of the yaml (`code-fold`) but if the code includes any reference to small numbers of sensitive data directly, for example:
 
 ```
-filter(!NHSNumber == '4564564564')
+filter(NHSNumber == '4564564564')
 ```
 this would be a breach of sensitive information. 
 

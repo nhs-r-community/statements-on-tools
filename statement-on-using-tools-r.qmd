@@ -100,6 +100,8 @@ As we've discussed above, the philosophy of using packages in R is rather differ
 
 > It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.
 
-## Other links
+## Useful resources
 
 [NHS England Regional Managers of Analytical teams presentation](https://github.com/aporter121/r-stuff/blob/main/Thoughts%20on%20R%20for%20regional%20leads.pptx)
+
+The Digital Technology Assessment Criteria for Health and Social Care [(DTAC) for R](https://www.linkedin.com/feed/update/urn:li:activity:7247179090808438784/?originTrackingId=T%2B3IdsxgS0isgVbrQckHtg%3D%3D) from [South West Analytics & Infrastructure in Healthcare](https://www.linkedin.com/company/swaih/about/) shared on LinkedIn.
