@@ -1,7 +1,14 @@
 # Technical guidance - R {#tech-r}
 
 :::{.callout-important collapse=false appearance='default' icon=true}
-## R vulnerability
+## Updating software and packages
+
+It is good practice to update any software and for R this will include [R packages](#intro).
+If you have to rely upon an IT team to do this on your behalf feel free to share this guide with them to help explain what is needed.
+:::
+
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## R vulnerability - awaiting analysis
 Published 29 April 2024 related to versions of R prior to 4.4.0  <https://nvd.nist.gov/vuln/detail/CVE-2024-27322>. 
 
 Remedial action suggested is to upgrade to 4.4.0 and only open rds files from trusted sources.
