@@ -18,7 +18,7 @@ Although the current focus of this chapter is specific to R and its tools, we no
 -   To provide reassurance and explanation to colleagues and managers when R is being considered for use in some projects
 -   To support those new to R in understanding how the many packages and tools fit together
 
-## Introduction
+## Introduction {#intro}
 
 R uses [**packages**](#packages), which are small, reusable collections of code that allow users to create and use functions. These packages can be easily distributed so that users can adopt them in the code that they are writing. To illustrate, imagine that you run into a tricky problem programming problem. We can think of three different ways of solving this problem:
 
