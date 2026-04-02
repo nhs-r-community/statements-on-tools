@@ -42,13 +42,13 @@ Packages make R better: easier to use and learn, more flexible, and with richer 
 
 To illustrate, we can show the code from two related NHS-R packages: [NHSRplotthedots](https://github.com/nhs-r-community/NHSRplotthedots) ([CRAN](https://cran.r-project.org/web/packages/NHSRplotthedots/index.html)) and [NHSRdatasets](https://github.com/nhs-r-community/NHSRdatasets) ([CRAN](https://cran.r-project.org/package=NHSRdatasets))
 
-| Component     | Purpose                                                | Example                                                                                                                                                                                        |
-|---------------|---------------|------------------------------------------|
-| Code          | Allows the user to use functions in their own code     | [![Screenshot of code for the ptd_spc() function used to create SPC charts from the {NHSplotthedots} package](https://i.imgur.com/LflSDU2.png){height="100"}](https://i.imgur.com/LflSDU2.png) |
-| Data          | Demonstrates the function(s), training new users       | [![Screenshot of NHSR dataset from {NHSRplotthedots}](https://i.imgur.com/0QUnwpr.png){height="100"}](https://i.imgur.com/0QUnwpr.png)                                                         |
-| Documentation | User guides, package vignettes and other documentation | [![Documentation for the ptd_spc() function from {NHSRplotthedots}](https://i.imgur.com/QzqF3Cq.png){height="100"}](https://i.imgur.com/QzqF3Cq.png)                                           |
+| Component | Purpose | Example |
+|-------------------|-------------------|-----------------------------------|
+| Code | Allows the user to use functions in their own code | ![Screenshot of code for the ptd_spc() function used to create SPC charts from the {NHSplotthedots} package](img/ptd_spc_image.png){height="100"} |
+| Data | Demonstrates the function(s), training new users | ![Screenshot of 'storms' dataset from {dplyr}](img/storms_data_image.png){height="100"} |
+| Documentation | User guides, package vignettes and other documentation | ![Documentation for the ptd_spc() function from {NHSRplotthedots}](img/ptd_spc_docs_image.png){height="100"} |
 
-And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It's definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets built into packages - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions.
+Screenshot of code for the ptd_spc() function used to create SPC charts from the {NHSplotthedots} package And we can usually find at least three of these components in most R packages (tests are a bit more elusive, and are less commonly encountered). It's also worth noting that the data included in community packages is sample data or open data that is really meant to help users experiment with the new functions in a package. It's definitely not standard practice to share real data for analysis in this way. Lots of these standard datasets built into packages - like [mtcars](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars) - are used over and over again as ways of demonstrating R functions.
 
 If you're writing a package, we would encourage caution as to the data that you include. We won't provide detailed guidance here on what's okay to include in your package. But would be useful to remind package authors that the proper oversight should be carried out before sharing any data as part of your package.
 
@@ -75,10 +75,6 @@ That community spirit is an important part of the open software movement. We thi
 We believe that this approach is safe, and are not aware of any data protection issues that have arisen because of the use of packages in R.
 
 ## An example
-
-[![](https://i.imgur.com/DPrxXXj.jpg){fig-alt="Photo of hand written page saying \"Days since last timezone issue\" and a post it not underneath saying 0" height="300"}](https://i.imgur.com/DPrxXXj.jpg)
-
-[image credit](https://www.reddit.com/r/ProgrammerHumor/comments/d51l9u/the_counter_was_reset_today_we_were_almost_into/)
 
 Working with dates is often a source of pain for data analysts. That's because times and dates are surprisingly complicated. For example, there are lots of ways of storing and representing dates. There are also many inconsistencies - 24 hours in a day but 60 seconds in a minute, leap years, different numbers of days in months, time zones, and so on.
 
